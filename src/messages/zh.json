@@ -288,69 +288,85 @@
       "link5": "波兰国家图书馆",
       "link6": "马佐夫舍省政府"
     },
-    "disclaimer": "本网站是一个独立的第三方旅游信息项目。我们不隶属于当地政府或任何其他官方机构。"
+    "disclaimer": "本网站是一个独立的第三方旅游信息项目。我们不隶属于当地政府或任何其他官方机构。",
+    "privacyLink": "隐私政策",
+    "termsLink": "服务条款",
+    "cookiesLink": "Cookie 设置"
   },
   "privacy": {
     "title": "隐私政策",
-    "lastUpdated": "Last updated: April 2026",
+    "lastUpdated": "最后更新时间：2026年5月",
     "sections": [
       {
-        "heading": "1. Information Collection",
-        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+        "heading": "我们收集的信息",
+        "content": "我们仅收集提供服务所必需的最低限度数据。这些数据可能包括：\n\n• 浏览数据（IP 地址、浏览器类型、访问页面）\n• Cookie 和类似技术\n• 您通过联系表格或电子邮件自愿提供的任何信息"
       },
       {
-        "heading": "2. Use of Information",
-        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+        "heading": "我们如何使用您的信息",
+        "content": "我们使用收集到的信息用于：\n\n• 改善网站内容和用户体验\n• 分析流量和使用模式\n• 回应请求\n• 遵守我们的法律义务"
       },
       {
-        "heading": "3. Cookies and Tracking",
-        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+        "heading": "第三方服务",
+        "content": "我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）、谷歌分析（用于流量分析）和 Unsplash（用于图片）。这些服务均有各自的隐私政策。"
       },
       {
-        "heading": "4. Data Security",
-        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+        "heading": "您的权利",
+        "content": "根据《通用数据保护条例》(GDPR)及相关法规，您享有以下权利：\n\n• 访问您的个人数据\n• 要求更正或删除\n• 反对处理\n• 向监管机构提出投诉"
       }
     ]
   },
   "terms": {
     "title": "服务条款",
-    "lastUpdated": "Last updated: April 2026",
+    "lastUpdated": "最后更新时间：2026年5月",
     "sections": [
       {
-        "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+        "heading": "访问和使用",
+        "content": "访问和使用本网站，即表示您同意受这些服务条款的约束。"
       },
       {
-        "heading": "2. Use of Service",
-        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+        "heading": "内容使用",
+        "content": "本网站所有内容仅供参考。我们是一家独立的第三方旅游信息网站，与任何旅游景点、政府机构或商业运营商均无关联。"
       },
       {
-        "heading": "3. Intellectual Property",
-        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+        "heading": "信息的准确性",
+        "content": "我们力求提供准确及时的信息，但无法保证信息的完整性或准确性。行程安排、条件和服务如有变更，恕不另行通知。请务必在出行前通过官方渠道核实重要信息。"
       },
       {
-        "heading": "4. Limitation of Liability",
-        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+        "heading": "知识产权",
+        "content": "本网站设计和原创内容受版权保护。图片来自 Unsplash，并已获得其许可。Google 地图数据的使用符合 Google 的服务条款。"
+      },
+      {
+        "heading": "责任限制",
+        "content": "本网站按“现状”提供，不作任何担保。对于因使用本网站信息而造成的任何损失，包括但不限于基于本网站内容做出的旅行决定，我们概不负责。"
       }
     ]
   },
   "cookieSettings": {
     "title": "Cookie 设置",
-    "description": "Manage your cookie preferences.",
+    "description": "我们使用 Cookie 来改善您的浏览体验。您可以在下方管理您的偏好设置。",
+    "lastUpdated": "最后更新时间：2026年5月",
     "essential": {
-      "title": "Essential Cookies",
-      "description": "Required for basic website functionality.",
-      "badge": "Always active"
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 对于网站正常运行至关重要，无法禁用。",
+      "badge": "始终保持活跃"
     },
     "analytics": {
-      "title": "Analytics Cookies",
-      "description": "Help us understand how visitors interact with the site."
+      "title": "分析型 Cookie (Google Analytics)",
+      "description": "它们通过收集匿名使用数据，帮助我们了解访客如何与我们的网站互动。"
+    },
+    "preferences": {
+      "title": "偏好 Cookie (用户偏好)",
+      "description": "它们会记住您的设置，例如语言和主题偏好。"
     },
     "marketing": {
-      "title": "Marketing Cookies",
-      "description": "Used to track visitors across websites."
+      "title": "营销 Cookie (个性化广告)",
+      "description": "它们用于展示相关广告并衡量广告活动的有效性。"
     },
-    "save": "Save Preferences",
-    "saved": "Preferences saved!"
+    "consent": "您可以随时更改您的 Cookie 设置。请注意，禁用某些 Cookie 可能会影响网站的功能。",
+    "save": "保存偏好设置",
+    "saved": "偏好已保存！",
+    "rejectAll": "拒绝一切",
+    "active": "激活",
+    "inactive": "停用"
   }
 }

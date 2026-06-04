@@ -36,14 +36,14 @@ export default function Footer() {
             <h3 className="text-lg font-medium mb-4 text-[var(--text-primary)]">{t('legal')}</h3>
             <div className="flex flex-col gap-2">
               <Link href={`/${locale}/privacy`} className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
-                Privacy Policy
+                {t('privacyLink') || 'Privacy Policy'}
               </Link>
               <Link href={`/${locale}/terms`} className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
-                Terms of Service
+                {t('termsLink') || 'Terms of Service'}
               </Link>
-              <button className="text-left hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
-                Cookie Settings
-              </button>
+              <Link href={`/${locale}/cookies`} className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                {t('cookiesLink') || 'Cookie Settings'}
+              </Link>
             </div>
           </div>
         </div>

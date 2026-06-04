@@ -290,69 +290,85 @@
     },
     "disclaimer": "Diese Website ist ein unabhängiges Touristeninformationsprojekt von Drittanbietern. Wir sind nicht mit der lokalen Regierung oder anderen offiziellen Institutionen verbunden.",
     "legal": "Rechtliches & Datenschutz",
-    "official": "Related Resources & Information"
+    "official": "Related Resources & Information",
+    "privacyLink": "Datenschutzrichtlinie",
+    "termsLink": "Nutzungsbedingungen",
+    "cookiesLink": "Cookie-Einstellungen"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2026",
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "sections": [
       {
-        "heading": "1. Information Collection",
-        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+        "heading": "Informationen, die wir sammeln",
+        "content": "Wir sammeln nur die minimale Menge an Daten, die zur Bereitstellung unserer Dienste erforderlich ist. Diese Daten können umfassen:\n\n• Browserdaten (IP-Adresse, Browsertyp, besuchte Seiten)\n• Cookies und ähnliche Technologien\n• Alle Informationen, die Sie freiwillig über Kontaktformulare oder per E-Mail angeben"
       },
       {
-        "heading": "2. Use of Information",
-        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+        "heading": "Wie wir Ihre Informationen verwenden",
+        "content": "Wir verwenden die gesammelten Informationen, um:\n\n• Den Inhalt der Website und die Benutzererfahrung zu verbessern\n• Traffic und Nutzungsmuster zu analysieren\n• Auf Anfragen zu antworten\n• Unseren gesetzlichen Verpflichtungen nachzukommen"
       },
       {
-        "heading": "3. Cookies and Tracking",
-        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+        "heading": "Dienste von Drittanbietern",
+        "content": "Unsere Website kann Dienste von Drittanbietern nutzen, wie z. B. Google Maps (für eingebettete Karten und Standortdaten), Google Analytics (für die Traffic-Analyse) und Unsplash (für Bilder). Diese Dienste haben ihre eigenen Datenschutzrichtlinien."
       },
       {
-        "heading": "4. Data Security",
-        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+        "heading": "Ihre Rechte",
+        "content": "Gemäß der Datenschutz-Grundverordnung (DSGVO) und verwandten Gesetzen haben Sie das Recht:\n\n• Auf Ihre personenbezogenen Daten zuzugreifen\n• Berichtigung oder Löschung zu beantragen\n• Der Verarbeitung zu widersprechen\n• Eine Beschwerde bei einer Aufsichtsbehörde einzureichen"
       }
     ]
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: April 2026",
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "sections": [
       {
-        "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+        "heading": "Zugang und Nutzung",
+        "content": "Durch den Zugriff auf und die Nutzung dieser Website erklären Sie sich mit diesen Nutzungsbedingungen einverstanden."
       },
       {
-        "heading": "2. Use of Service",
-        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+        "heading": "Inhaltsnutzung",
+        "content": "Alle Inhalte auf dieser Website dienen nur zu Informationszwecken. Wir sind eine unabhängige Reiseinformations-Website von Drittanbietern, die mit keinen Touristenattraktionen, Regierungsbehörden oder kommerziellen Betreibern verbunden ist."
       },
       {
-        "heading": "3. Intellectual Property",
-        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+        "heading": "Genauigkeit der Informationen",
+        "content": "Wir bemühen uns, genaue und aktuelle Informationen bereitzustellen, können jedoch nicht für deren Vollständigkeit oder Genauigkeit garantieren. Reiserouten, Bedingungen und Dienstleistungen können ohne vorherige Ankündigung geändert werden. Überprüfen Sie wichtige Informationen immer über offizielle Kanäle, bevor Sie reisen."
       },
       {
-        "heading": "4. Limitation of Liability",
-        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+        "heading": "Geistiges Eigentum",
+        "content": "Das Design und der ursprüngliche Inhalt dieser Website sind urheberrechtlich geschützt. Bilder stammen von Unsplash und werden mit Genehmigung verwendet. Die Nutzung von Google Maps-Daten entspricht den Nutzungsbedingungen von Google."
+      },
+      {
+        "heading": "Haftungsbeschränkung",
+        "content": "Diese Website wird \"wie besehen\" ohne jegliche Garantien zur Verfügung gestellt. Wir haften nicht für Verluste, die sich aus der Nutzung von Informationen auf dieser Website ergeben, einschließlich, aber nicht beschränkt auf Reiseentscheidungen, die auf unseren Inhalten basieren."
       }
     ]
   },
   "cookieSettings": {
-    "title": "Cookie Settings",
-    "description": "Manage your cookie preferences.",
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern. Sie können Ihre Einstellungen unten verwalten.",
+    "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "essential": {
-      "title": "Essential Cookies",
-      "description": "Required for basic website functionality.",
-      "badge": "Always active"
+      "title": "Notwendige Cookies",
+      "description": "Diese Cookies sind für die grundlegende Funktionalität der Website von entscheidender Bedeutung und können nicht deaktiviert werden.",
+      "badge": "Immer aktiv"
     },
     "analytics": {
-      "title": "Analytics Cookies",
-      "description": "Help us understand how visitors interact with the site."
+      "title": "Analyse-Cookies (Google Analytics)",
+      "description": "Sie helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie anonyme Nutzungsdaten sammeln."
+    },
+    "preferences": {
+      "title": "Präferenz-Cookies (Benutzereinstellungen)",
+      "description": "Sie speichern Ihre Einstellungen wie Sprachpräferenzen und Themen."
     },
     "marketing": {
-      "title": "Marketing Cookies",
-      "description": "Used to track visitors across websites."
+      "title": "Marketing-Cookies (Personalisierte Werbung)",
+      "description": "Sie werden verwendet, um relevante Anzeigen anzuzeigen und die Wirksamkeit von Werbekampagnen zu messen."
     },
-    "save": "Save Preferences",
-    "saved": "Preferences saved!"
+    "consent": "Sie können Ihre Cookie-Einstellungen jederzeit ändern. Bitte beachten Sie, dass die Deaktivierung bestimmter Cookies die Funktionalität der Website beeinträchtigen kann.",
+    "save": "Einstellungen speichern",
+    "saved": "Einstellungen gespeichert!",
+    "rejectAll": "Alle ablehnen",
+    "active": "Aktiv",
+    "inactive": "Inaktiv"
   }
 }
