@@ -12,192 +12,185 @@
   },
   "hero": {
     "title": "Pole Mokotowskie",
-    "subtitle": "Warsaw's Largest Urban Green Space & Local Leisure Paradise",
+    "subtitle": "Ogromna centralna przestrzeń zielona Warszawy",
     "rating": "4.7(26,663)",
-    "reviewCount": "26,663 reviews",
-    "hours": "Open 24/7",
-    "openMaps": "View Location"
+    "reviewCount": "26,663 opinii",
+    "hours": "Otwarte całą dobę",
+    "openMaps": "Zobacz lokalizację"
   },
   "intro": {
-    "title": "Discover Pole Mokotowskie",
-    "description": "The first time you step into Pole Mokotowskie, you'll instantly be wrapped in the unique wild coastal atmosphere of the North Sea in Northern Europe. There are no manicured attractions, only endless flowing golden sand dunes, steep sea cliffs, and the old lighthouse standing in the sand, slowly being enveloped by wind and sand — desolate yet breathtaking.\n\nThe strong sea wind carries the scent of seawater and sand, rushing towards you. In the distance, the vast North Sea stretches endlessly, waves crash against the shore layer by layer, and the view is boundless. The rolling sand dunes are soft and thick, constantly reshaped by the wind — every moment here offers a unique landscape.\n\nThe old lighthouse stands lonely atop the dunes, having spent a century accompanying the wind and sand. From a former coastal navigation beacon to a niche natural heritage slowly being consumed by nature — the atmosphere is incredible. There are no crowded commercial areas, no noisy tourists. Only the sound of wind, waves, and endless wilderness. Standing at the cliff's edge, all your troubles will be soothed by the vast coastal scenery.\n\nSunset is the highlight of Pole Mokotowskie. The setting sun paints the dunes and sea in warm orange hues, the lighthouse's silhouette gentle in the twilight. The loneliness and romance of the wild coast blend perfectly at this moment, making it one of the must-see coastal sunset spots in Northern Denmark.",
+    "title": "Odkryj Pole Mokotowskie",
+    "description": "Szczerze mówiąc, wchodząc na Pole Mokotowskie po raz pierwszy, zostaniesz natychmiast uleczony przez tę bezkresną otwartą zieloną przestrzeń. W przeciwieństwie do starannie wypielęgnowanych ogrodów, jest to wyjątkowa zrelaksowana dzicz Warszawy. Duże, płaskie trawniki ciągną się w dal, a wiatr wieje przez trawę w delikatnych falach, czysto i przestronnie.\n\nOdwiedziłem to miejsce w słoneczne popołudnie; powietrze było rześkie i czyste, a w oddali majaczyły budynki miejskie, idealnie podkreślając spokój parku. Ścieżka wokół jeziora jest bujna od roślinności, powierzchnia wody jest spokojna, a ptactwo wodne czasami przepływa, dodając odrobinę życia.\n\nMiejscowi są rozsiani po dwie, trzy osoby - niektórzy rozmawiają na matach piknikowych, inni uprawiają jogging lub jeżdżą na rowerze wzdłuż ścieżek, a dzieci biegają swobodnie i puszczają latawce na otwartych trawnikach. Nie ma tu tłumów turystów, nie ma komercyjnego hałasu, jest tylko spokój i łatwość codziennego życia.\n\nNajbardziej poruszającą cechą jest tu idealna równowaga między miastem a naturą. Będąc w tętniącym życiem centrum miasta, a jednocześnie mając dzicz z dala od hałasu. W górze jest pełne niebo, w dole miękka trawa. Możesz usiąść gdziekolwiek, oczyścić umysł i pozwolić czasowi płynąć powoli.",
     "visitGuide": {
-      "title": "Visit Tips",
+      "title": "Wskazówki dla odwiedzających",
       "items": [
-        "Recommended to visit during daytime with calm or light wind conditions, avoid strong wind days",
-        "Outdoor cliffs and sand dunes are free; lighthouse interior requires separate admission",
-        "Sunset is the best time to visit and experience the stunning North Sea twilight",
-        "Wear windproof jackets and comfortable hiking shoes; prepare for sun and dust protection"
+        "Zaleca się wizytę wczesnym rankiem lub wieczorem, aby uniknąć słońca w południe i tłumów",
+        "Publiczne trawniki, ścieżki i krajobrazy nad jeziorem są całkowicie darmowe",
+        "Teren trawników jest ogromny, wygodne lekkie buty są zalecane na długie spacery",
+        "Dbaj o środowisko naturalne, nie śmieć i nie niszcz roślinności"
       ]
     },
     "alsoKnownAs": {
-      "title": "Highlights",
+      "title": "Cechy parku",
       "items": [
-        "Iconic coastal natural landmark of Northern Denmark",
-        "Representative landscape of North Sea wind and sand erosion",
-        "Site of the century-old sand dune lighthouse",
-        "One of Northern Europe's most representative coastal wilderness destinations"
+        "Największa i najbardziej reprezentatyjna miejska przestrzeń zielona w Warszawie",
+        "Ważny punkt orientacyjny nowoczesnego planowania urbanistycznego stolicy Polski",
+        "Świadek powojennej odbudowy Warszawy i miejskiej modernizacji ekologicznej",
+        "Ważny nośnik lokalnego życia kulturalnego i pamięci miasta"
       ]
     }
   },
   "knowledge": {
-    "title": "The Charm of Pole Mokotowskie",
+    "title": "Odkryj urok Pola Mokotowskiego",
     "sections": [
       {
         "id": "history",
-        "title": "A Century of Coastal Changes",
-        "content": "The Pole Mokotowskie area features unique flowing sand dune terrain due to persistent strong sea winds and sand movement. The Rubjerg Lighthouse was built in the 19th century, originally serving as a navigation beacon for North Sea vessels. After its construction, the surrounding sand dunes rapidly advanced year by year, constantly engulfing surrounding land and buildings. The lighthouse suffered long-term burial by sand and erosion from sea winds, gradually losing its original navigation function. The local government conducted multiple sand dune management and building protection projects to slow the erosion, eventually designating the lighthouse and surrounding coast as a nature reserve and travel destination open to the public. Over centuries, the coastline has continuously changed and sand dunes kept moving. This land preserves the complete traces of the North Sea coast's unique natural evolution, transforming from a practical maritime facility to a niche natural travel landmark in Northern Europe, attracting global tourists."
+        "title": "Wiek historii",
+        "content": "Teren Pola Mokotowskiego ma długą historię. Początkowo był to pusty nieużytek i buforowa przestrzeń zielona na obrzeżach miasta, ale wraz z rozbudową Warszawy został włączony do ogólnego planowania przestrzennego. Po II wojnie światowej Warszawa przeszła masową odbudowę, a miasto pilnie potrzebowało dużych publicznych terenów zielonych, aby złagodzić miejskie tempo. Ta dzicz została oficjalnie przekształcona w publiczny park miejski.\n\nWe wczesnych etapach budowy skupiono się na podstawowym zazielenieniu i prostych ścieżkach, podkreślając otwarty, oryginalny krajobraz i zachowując dziką teksturę miejsca. Po kilku rundach lekkich modernizacji dodano jeziora, obiekty rekreacyjne, boiska sportowe i krajobrazy pamięci, stopniowo doskonaląc jego funkcje i stając się kompleksową miejską zieloną przestrzenią rekreacyjną.\n\nPrzez wieki ta ziemia ewoluowała z podmiejskich nieużytków do bariery ekologicznej dla powojennej odbudowy miasta, a teraz do miejskiego salonu dzielonego przez wszystkich. Była świadkiem upadku i odrodzenia Warszawy, niesie codzienne wspomnienia pokoleń mieszkańców i stoi cicho w centrum miasta, obejmując rozległą zielenią historie całego miasta."
       },
       {
         "id": "architecture",
-        "title": "Architectural Features",
-        "content": "The core landmark is the century-old Rubjerg Lighthouse gradually being swallowed by sand dunes, accompanied by kilometers of yellow flowing sand dunes, steep sea cliffs, and the wild North Sea coastline. There is no excessive artificial modification, preserving the original coastal wilderness texture with extremely strong visual impact from the natural landscape. The artificial lighthouse's retro brick and stone architecture blends with the native coastal terrain, gaining a unique sense of history through years of sea wind and sand erosion — desolate, vast, and possessing both loneliness and natural wild beauty."
+        "title": "Cechy architektoniczne",
+        "content": "Zdominowany przez rozległe, niekończące się rodzime trawniki, uzupełnione sztucznymi jeziorami, wysadzanymi drzewami ścieżkami, gajami krajobrazowymi i małymi placami wypoczynkowymi. Teren jest otwarty i przestronny, z przejrzystym widokiem. Minimalistyczne instalacje pamięci, rzeźby rekreacyjne i promenada nad jeziorem są rozmieszczone w całym parku, delikatnie integrując naturalne krajobrazy z miejskimi obiektami publicznymi.\n\nDzięki nowoczesnemu stylowi miejskiego planowania ekologicznego odrzuca skomplikowane kształtowanie krajobrazu na rzecz prostoty i natury. Duża otwarta dzicz w połączeniu z liniowymi alejami wysadzanymi drzewami tworzy zrelaksowany i przejrzysty układ, łącząc praktyczne atrybuty rekreacyjne z naturalną dzikością."
       },
       {
         "id": "culture",
-        "title": "Cultural Significance",
-        "content": "A healing wilderness secret place in the hearts of Danes, a location for countless photography works and travel videos, witnessing the natural evolution of North Sea coastal sand dune movement and coastline erosion. It carries the Nordic lifestyle aesthetic of yearning for freedom and closeness to wild coasts, and is also a niche outdoor hiking sanctuary. It is an important Danish coastal ecological reserve, recording the history of coastal sand and coastline changes."
+        "title": "Wartość kulturowa",
+        "content": "Jest to główne miejsce codziennego relaksu, uprawiania sportu, pikników i imprez festiwalowych mieszkańców Warszawy, niosące ze sobą lokalną, zrelaksowaną kulturę życia miejskiego. Często odbywają się tu targi na świeżym powietrzu, występy plenerowe, akcje charytatywne i imprezy sportowe, co jest ważnym przejawem witalności miasta i integracyjnej atmosfery Warszawy.\n\nJako super duża przestrzeń zielona w centrum miasta, jest to nie tylko pierwszy wybór na codzienny wypoczynek obywateli, ale także ważna część tożsamości miejskiej Warszawy. W każdy weekend i święta staje się popularnym miejscem spotkań lokalnych rodzin i przyjaciół."
       },
       {
         "id": "experience",
-        "title": "Core Experience",
-        "content": "Sunset is the highlight of Pole Mokotowskie. The setting sun paints the dunes and sea in warm orange hues, the lighthouse's silhouette gentle in the twilight. The loneliness and romance of the wild coast blend perfectly at this moment, making it one of the must-see coastal sunset spots in Northern Denmark. There are long-distance cycling routes along the coast, allowing cycling enthusiasts to ride directly along the coastal road while enjoying the North Sea scenery."
+        "title": "Kluczowe doświadczenie",
+        "content": "Wejdź do parku wczesnym rankiem, spaceruj powoli wysadzanymi drzewami ścieżkami, oddychaj świeżym powietrzem i poczuj rzadki w mieście moment ciszy. Po południu rozłóż matę piknikową na trawniku, porozmawiaj i pomarz ze znajomymi, a także popatrz na dzieci goniące się i bawiące na trawie. O zmierzchu wybierz się na spacer promenadą nad jeziorem, podziwiaj panoramę miasta odbijającą się w jeziorze i obserwuj zachód słońca, który pokrywa całą dzicz ciepłymi, złotymi tonami.\n\nNie trzeba niczego celowo organizować; najlepszym doświadczeniem jest zwolnienie tempa, swobodne wędrówki i pozwolenie, aby zmęczenie miejskim życiem powoli ulotniło się w tej zielonej dziczy."
       }
     ]
   },
   "basicInfo": {
-    "title": "Basic Information",
-    "officialName": "Official Name",
+    "title": "Podstawowe informacje",
+    "officialName": "Oficjalna nazwa",
     "officialNameValue": "Pole Mokotowskie",
-    "type": "Attraction Type",
-    "typeValue": "Urban Park, Large Green Space, Leisure Meadow",
-    "country": "Country",
-    "countryValue": "Poland",
-    "city": "City",
-    "cityValue": "Warsaw",
-    "googleRating": "Google Rating",
-    "phone": "Phone",
-    "address": "Address",
-    "addressValue": "al. Niepodległości, Warszawa, Poland",
+    "type": "Typ atrakcji",
+    "typeValue": "Park miejski, teren zielony",
+    "country": "Kraj",
+    "countryValue": "Polska",
+    "city": "Miasto",
+    "cityValue": "Warszawa",
+    "googleRating": "Ocena w Google",
+    "phone": "Telefon",
+    "address": "Adres",
+    "addressValue": "al. Niepodległości, Warszawa, Polska",
     "plusCode": "Plus Code",
-    "plusCodeValue": "6273+39 Warsaw, Poland"
+    "plusCodeValue": "6273+39 Warszawa, Polska"
   },
   "hours": {
-    "title": "Opening Hours",
-    "outdoor": "Outdoor Area",
-    "outdoorTime": "Open 24/7, year-round",
-    "lighthouse": "Rubjerg Lighthouse Interior & Observation Deck",
-    "summer": "Summer (May 1 - Sep 30)",
-    "summerTime": "10:00-17:00",
-    "winter": "Winter (Oct 1 - Apr 30)",
-    "winterTime": "Weekends and holidays only",
-    "warning": "Weather Warning",
-    "warningTime": "During extreme weather conditions (extreme wind, heavy rain, blizzard), the cliff area may be temporarily closed. Do not approach cliff edges.",
-    "tip": "Recommended to visit during daytime with calm or light wind; coastal winds are generally strong"
+    "title": "Godziny otwarcia",
+    "outdoor": "Cały park",
+    "outdoorTime": "Otwarte cały dzień, przez cały rok",
+    "restrooms": "Publiczne miejsca odpoczynku",
+    "restroomsTime": "Dostępne cały dzień",
+    "trails": "Ścieżki i trawniki",
+    "trailsTime": "Otwarte 24/7",
+    "tip": "Zaleca się wizytę wczesnym rankiem lub wieczorem, unikając południowego słońca i tłumów."
   },
   "tickets": {
-    "title": "Ticket Prices",
-    "outdoor": "Outdoor Cliffs, Sand Dunes & Trails",
-    "outdoorPrice": "Free admission, no entry fee",
-    "lighthouse": "Rubjerg Lighthouse Interior Visit",
-    "adults": "Adults",
-    "adultsPrice": "Tiered pricing",
-    "students": "Youth",
-    "studentsPrice": "Discounted pricing",
-    "children": "Children",
-    "childrenPrice": "Free or discounted",
-    "card": "Denmark National Travel Pass",
-    "cardPrice": "Can offset venue tickets; ideal for multi-city Scandinavia travelers"
+    "title": "Ceny biletów",
+    "outdoor": "Trawniki i ścieżki",
+    "outdoorPrice": "Całkowicie za darmo",
+    "lake": "Teren jeziora",
+    "lakePrice": "Wstęp wolny",
+    "plaza": "Place rekreacyjne",
+    "plazaPrice": "Wstęp wolny",
+    "activities": "Tymczasowe atrakcje",
+    "activitiesPrice": "Atrakcje sezonowe wymagają oddzielnej opłaty",
+    "card": "Bilet komunikacji miejskiej w Warszawie",
+    "cardPrice": "Zaleca się zakup biletu dobowego ZTM, odpowiedniego do zwiedzania wielu atrakcji."
   },
   "transport": {
-    "title": "How to Get Here",
-    "airport": "From Aalborg Airport (Recommended)",
-    "airportDesc": "From the airport, take intercity buses or regional trains to Løkken city center. Connections are stable and well-coordinated. You can also book rideshare or short-distance charter cars directly to the scenic area at the airport entrance — ideal for travelers with more luggage or groups, saving time and efficiency.",
-    "selfDrive": "Self-Drive (Most Convenient)",
-    "selfDriveDesc": "Driving from Løkken city center is the most convenient option. The scenic area has free outdoor parking. Driving time is approximately 10 minutes.",
-    "bus": "Regional Bus",
-    "busDesc": "Public transport via Løkken local regional buses directly to the Pole Mokotowskie scenic area entrance. Walk 800 meters from the bus stop to the entrance.",
-    "intercity": "Intercity Bus",
-    "intercityDesc": "From Aalborg city center and surrounding cities, take intercity buses to Løkken, then transfer to short-distance transport to the scenic area.",
-    "cycling": "Cycling",
-    "cyclingDesc": "There are long-distance cycling routes along the coast. Cyclists can ride directly along the coastal road while enjoying the North Sea scenery.",
-    "tips": "Travel Tips",
-    "tipsDesc": "Self-drive or chartered cars are strongly recommended. North Sea coastal winds are strong; long-distance walking is not recommended during bad weather."
+    "title": "Transport",
+    "airport": "Z lotniska Chopina",
+    "airportDesc": "Wsiądź w pociąg SKM lub autobus bezpośrednio do centrum miasta, a następnie przesiądź się w tramwaj lub autobus, aby dotrzeć do parku w około 30 minut. Taksówki i Uber są wygodne z bagażem.",
+    "train": "Z Dworca Centralnego",
+    "trainDesc": "Wsiądź w tramwaj, metro lub autobus, a dotrzesz do wejścia do parku w 15 minut.",
+    "city": "Z głównych atrakcji",
+    "cityDesc": "Ze Starego Miasta lub Pałacu Kultury i Nauki jedź autobusem lub tramwajem. Park jest też dostępny pieszo lub rowerem miejskim Veturilo.",
+    "public": "Transport publiczny w okolicy",
+    "publicDesc": "Park jest otoczony przystankami autobusowymi i tramwajowymi oraz stacją metra Pole Mokotowskie. Zalecany jest bilet dobowy ZTM.",
+    "tips": "Wskazówki",
+    "tipsDesc": "Liczba miejsc parkingowych wokół parku jest ograniczona, preferowany jest transport publiczny. Okolica jest bezpieczna."
   },
   "route": {
-    "title": "Recommended Route",
-    "overview": "Recommended to visit during daytime with calm or light wind. Enter from the main trail, visit the sand dune trail, cliff observation deck, and Rubjerg Lighthouse core area in sequence. Stroll along the coastal boardwalk to enjoy the North Sea views. The entire walk is relaxing and easy. Standard visit takes about 2 hours; extended photography and coastal loop hiking can extend to half a day.",
+    "title": "Trasa zwiedzania",
+    "overview": "Zaleca się wejście wczesnym rankiem lub wieczorem od głównego wejścia. Spaceruj powoli alejami wysadzanymi drzewami, mijaj pas krajobrazowy nad jeziorem i ciesz się wodą i zielenią. Przejdź przez centralny wielki trawnik, zamelduj się przy minimalistycznych pomnikach i placach rekreacyjnych, a na koniec usiądź i odpocznij na skraju trawnika.",
     "steps": [
-      "Arrive at the scenic area parking lot or bus stop, walk to the Pole Mokotowskie main entrance",
-      "Follow the wooden protective boardwalk deep into the sand dune area, experience the flowing yellow sand terrain up close",
-      "Continue to the famous Rubjerg Lighthouse, view the exterior architecture and sand dune embrace landscape",
-      "Head to the north cliff observation platform, overlook the North Sea coastline and offshore rocky views",
-      "Stroll along the coastal boardwalk, enjoy the pristine coast and wilderness scenery",
-      "Walk the niche sand dune loop trail, avoid crowds, capture wild coastal photos",
-      "Wait for the coastal sunset at a safe cliff-side area, experience the stunning North Sea twilight",
-      "Return to the exit via the same route, head to Løkken city center for dining and rest"
+      "Wysiądź na przystanku komunikacji miejskiej i wejdź szeroką, wysadzaną drzewami główną drogą.",
+      "Spaceruj powoli, ciesząc się drzewami i bujną zielenią po drodze.",
+      "Przejdź się promenadą wokół sztucznego jeziora, obserwuj ptactwo wodne.",
+      "Przejdź przez centralny, otwarty wielki trawnik i poczuj naturalną atmosferę.",
+      "Udaj się do małych obszarów pamięci i instalacji artystycznych parku.",
+      "Spaceruj niszowymi leśnymi ścieżkami, omijając tłumy.",
+      "Zatrzymaj się i odpocznij na trawniku, doświadczając codziennej atmosfery piknikujących mieszkańców.",
+      "Powoli wracaj zewnętrznymi ścieżkami, ciesząc się panoramą miasta."
     ],
     "supplements": [
-      "Coastal winds are generally strong; wear windproof jackets and comfortable hiking shoes",
-      "No protective railings at cliff edges; maintain safe distance, do not cross dangerous areas",
-      "Sand dune areas have soft sand; watch your footing to avoid sprains",
-      "Camping, open flames, and unauthorized climbing of the old lighthouse are prohibited",
-      "During sandy weather, protect against dust and safeguard electronic devices"
+      "Trawniki w parku są ogromne, więc na długie spacery zalecane są wygodne buty.",
+      "Trawa może być mokra po deszczu.",
+      "Dbaj o środowisko naturalne, nie śmieć i nie niszcz roślinności.",
+      "Park jest dostępny w nocy, oświetlenie jest łagodne, ale zaleca się spacery z osobą towarzyszącą."
     ]
   },
   "photoSpots": {
-    "title": "Photo Spots",
+    "title": "Miejsca na zdjęcia",
     "spots": [
       {
-        "name": "Lighthouse in Sand Dunes",
-        "desc": "Yellow sand background with retro lighthouse; atmospheric shots with wilderness loneliness"
+        "name": "Aleje wysadzane drzewami",
+        "desc": "Wysokie drzewa po obu stronach, poranne światło słoneczne przebijające przez liście, idealne na świeże ujęcia ze spaceru"
       },
       {
-        "name": "Sea Cliff Observation Deck",
-        "desc": "Wide-angle shots of North Sea coastline; expansive sea views with excellent视野"
+        "name": "Centralny Wielki Trawnik",
+        "desc": "Otwarte zielone trawniki z błękitnym niebem lub panoramą miasta w tle, idealne na piknik i ujęcia w biegu"
       },
       {
-        "name": "Rolling Sand Dune Trail",
-        "desc": "Varied sand dunes + wilderness sky; minimalist Nordic natural style"
+        "name": "Jezioro ekologiczne",
+        "desc": "Spokojna woda odbijająca okoliczne drzewa i niebo, ptactwo wodne dodające ożywienia"
       },
       {
-        "name": "Coastal Sunset Spot",
-        "desc": "West cliff side; capture sunset, sea and sand dunes in one frame"
+        "name": "Rzeźby na Placu Pamięci",
+        "desc": "Rzeźby pełne historii kontrastujące z nowoczesnym parkiem, odpowiednie do fotografii ulicznej"
       },
       {
-        "name": "Windbreak Wooden Boardwalk",
-        "desc": "Linear road composition; niche, clean, minimalist shooting angles"
+        "name": "Strefa zabaw dla zwierząt",
+        "desc": "Uchwyć radosne chwile psów swobodnie biegających i bawiących się ze sobą"
       }
     ],
-    "tips": "Photography Tips",
-    "tipsContent": "Coastal light is clear; sunny days offer rich light and shadow layers, perfect for panoramic and landscape shots. Coastal winds are strong; watch clothing and hairstyles for portraits. No drone fly restrictions in the area, but cliff-side turbulence is severe; low-altitude flight not recommended. For empty, crowd-free shots, visit on weekdays to avoid holiday crowds."
+    "tips": "Wskazówki fotograficzne",
+    "tipsContent": "Światło w Warszawie jest miękkie, dzięki czemu 'złote godziny' wczesnym rankiem lub późnym popołudniem to najlepszy czas na robienie zdjęć. Park jest bogaty w zieleń, dlatego noszenie jasnych ubrań tworzy lepszy kontrast. Prosimy o zachowanie bezpiecznej odległości podczas fotografowania dzikiej przyrody."
   },
   "hotels": {
-    "title": "Accommodation",
+    "title": "Zakwaterowanie",
     "hotels": [
       {
-        "name": "Løkken Seafront Hotels",
-        "desc": "Ocean views facing the North Sea, walking distance to the coast. Perfect for sunrise and sunset viewing, with great atmosphere, sea view restaurants and leisure facilities",
-        "price": "Price varies by season"
+        "name": "Hotele premium w centrum Warszawy",
+        "desc": "Zaledwie kilka stacji metra od parku, tętniąca życiem okolica handlowa, idealne na pobyt wysokiej jakości",
+        "price": "Ceny zależą od sezonu"
       },
       {
-        "name": "Løkken Town Guesthouses",
-        "desc": "Nordic minimalist decor, quiet and livable. Short drive to the scenic area, supermarkets and restaurants nearby, good value for money",
-        "price": "Price varies by season"
+        "name": "Apartamenty butikowe na Mokotowie",
+        "desc": "Tuż przy parku, w odległości krótkiego spaceru na poranny bieg, świetny lokalny klimat z wieloma kawiarniami",
+        "price": "Ceny zależą od sezonu"
       },
       {
-        "name": "Wilderness Cabins Near Scenic Area",
-        "desc": "Private detached cabins, ideal for short vacations and nature lovers. Experience the peaceful coastal nights up close",
-        "price": "Price varies by season"
+        "name": "Okolice Dworca Centralnego",
+        "desc": "Niezwykle dogodny transport, odpowiedni na krótkie pobyty lub dla podróżnych łapiących pociągi",
+        "price": "Ceny zależą od sezonu"
       },
       {
-        "name": "Løkken City Chain Hotels",
-        "desc": "Convenient transportation, complete facilities. Ideal for budget travel and short-stay transit",
-        "price": "Price varies by season"
+        "name": "Hotele tranzytowe przy Lotnisku Chopina",
+        "desc": "Idealne w przypadku wczesnych/późnych lotów, bezpośredni dojazd transportem publicznym do parku w pół godziny",
+        "price": "Ceny zależą od sezonu"
       }
     ],
-    "supplements": "Accommodation Tips",
-    "supplementsContent": "Northern Danish coastal nights are cool; bring a light jacket even in summer. Accommodations book up quickly during peak travel season (summer, weekends); book early to secure prices. Some seaside accommodations have noticeable wind noise; sensitive sleepers may prefer town center locations. The area is generally safe; avoid going alone to niche coastal areas at night."
+    "supplements": "Uwagi do zakwaterowania",
+    "supplementsContent": "Lato w Warszawie jest przyjemne, ale rano i wieczorem może wystąpić różnica temperatur, dlatego zaleca się lekką kurtkę. Dzielnica Mokotów wokół parku jest bardzo bezpieczna i popularna. Jeśli wolisz ciszę, wybierz pokoje niewychodzące na ulicę. W szczycie sezonu zaleca się rezerwację z wyprzedzeniem."
   },
   "gallery": {
     "title": "Photo Gallery",
@@ -282,17 +275,11 @@
     ],
     "viewMore": "Zobacz więcej opinii w Google Maps"
   },
-  "mapSection": {
-    "title": "How to Get Here",
-    "subtitle": "Fyrvejen 110, 9800 Løkken, Denmark",
-    "openMaps": "View on Google Maps"
-  },
   "footer": {
     "rights": "© 2026 Pole Mokotowskie Independent Travel Research Association · All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
       "link1": "Ministerstwo Spraw Zagranicznych RP",
       "link2": "Polska Organizacja Turystyczna",
@@ -302,7 +289,8 @@
       "link6": "Samorząd Województwa Mazowieckiego"
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
-    "legal": "Kwestie prawne i prywatność"
+    "legal": "Kwestie prawne i prywatność",
+    "official": "Related Resources & Information"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -366,50 +354,5 @@
     },
     "save": "Save Preferences",
     "saved": "Preferences saved!"
-  },
-  "officialManagement": {
-    "title": "About Pole Mokotowskie",
-    "text": "Pole Mokotowskie is managed and maintained by the Danish Nature Agency, and is one of the most important coastal natural heritage sites in Northern Denmark.\n\nAs an iconic natural landmark of the North Sea coast, Pole Mokotowskie has witnessed centuries of unique natural evolution through coastline changes and sand dune movement. Today, the scenic area is open to the public free of charge, offering an excellent destination for exploring Denmark's coastal wilderness and an important window for visitors worldwide to experience Nordic natural charm."
-  },
-  "recommendations": {
-    "title": "Discover More",
-    "attractionsTitle": "Nearby Attractions",
-    "toursTitle": "Recommended Tours & Activities",
-    "attractions": [
-      {
-        "name": "Løkken Beach",
-        "url": "https://www.visitdenmark.com"
-      },
-      {
-        "name": "Blokhus Beach",
-        "url": "https://www.visitdenmark.com"
-      },
-      {
-        "name": "Skagen Museum",
-        "url": "https://www.skagensmuseum.dk"
-      },
-      {
-        "name": "Grenen Point",
-        "url": "https://www.visitdenmark.com"
-      }
-    ],
-    "tours": [
-      {
-        "name": "North Sea Coast Road Trip",
-        "url": "https://www.visitdenmark.com"
-      },
-      {
-        "name": "Sand Dune Hiking Tour",
-        "url": "https://www.visitdenmark.com"
-      },
-      {
-        "name": "Northern Denmark Deep Tour",
-        "url": "https://www.stromma.dk"
-      },
-      {
-        "name": "Coastal Cycling Tour",
-        "url": "https://www.visitdenmark.com"
-      }
-    ]
   }
 }
