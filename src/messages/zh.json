@@ -11,10 +11,10 @@
     "backToHome": "返回首页"
   },
   "hero": {
-    "title": "鲁比约角",
-    "subtitle": "丹麦北海海岸悬崖、沙丘灯塔与荒野秘境",
-    "rating": "4.7(8,278)",
-    "reviewCount": "8,278 条评价",
+    "title": "莫科托夫斯基原野",
+    "subtitle": "华沙城市中央超大绿地与本地休闲圣地",
+    "rating": "4.7(26,663)",
+    "reviewCount": "26,663 条评价",
     "hours": "全天开放",
     "openMaps": "查看位置"
   },
@@ -68,17 +68,19 @@
   "basicInfo": {
     "title": "基础信息",
     "officialName": "正式名称",
-    "officialNameValue": "Rubjerg Knude（鲁比约角）",
+    "officialNameValue": "Pole Mokotowskie（莫科托夫斯基原野）",
     "type": "景点类型",
-    "typeValue": "海岸悬崖、沙丘景观、滨海灯塔、自然保护区",
+    "typeValue": "城市公园、大型绿地、休闲原野",
     "country": "国家",
-    "countryValue": "丹麦",
+    "countryValue": "波兰",
     "city": "城市",
-    "cityValue": "洛肯",
+    "cityValue": "华沙",
     "googleRating": "谷歌评分",
     "phone": "电话",
     "address": "地址",
-    "addressValue": "Fyrvejen 110, 9800 Løkken, Denmark"
+    "addressValue": "al. Niepodległości, Warszawa, 波兰",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "6273+39 华沙 波兰"
   },
   "hours": {
     "title": "开放时间",
@@ -258,9 +260,9 @@
       "link1": "波兰共和国外交与签证",
       "link2": "波兰国家旅游局",
       "link3": "波兰国家遗产研究院",
-      "link4": "小波兰省旅游",
-      "link5": "克拉科夫博物馆",
-      "link6": "克拉科夫官方旅游局"
+      "link4": "华沙市政府",
+      "link5": "波兰国家图书馆",
+      "link6": "马佐夫舍省政府"
     },
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
   },

@@ -8,6 +8,9 @@ import { useState, useRef, useEffect } from 'react';
 const labels: Record<string, string> = {
   zh: '中文',
   en: 'English',
+  pl: 'Polski',
+  ru: 'Русский',
+  de: 'Deutsch',
 };
 
 export default function LanguageToggle() {
@@ -35,13 +38,15 @@ export default function LanguageToggle() {
 
     const segments = pathname.split('/').filter(Boolean);
     
+    // 对于 always 模式，我们始终需要加上语言前缀
     if (segments.length > 0 && routing.locales.includes(segments[0] as Locale)) {
       segments[0] = next;
     } else {
       segments.unshift(next);
     }
     
-    router.push(`/${segments.join('/')}`);
+    const newPath = `/${segments.join('/')}`;
+    router.push(newPath || '/');
   }
 
   return (

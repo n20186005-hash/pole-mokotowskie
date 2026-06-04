@@ -13,8 +13,8 @@
   "hero": {
     "title": "Rubjerg Knude",
     "subtitle": "Denmark's North Sea Coast Cliffs, Sand Dunes & Wilderness Escape",
-    "rating": "4.7(8,278)",
-    "reviewCount": "8,278 reviews",
+    "rating": "4.7(26,663)",
+    "reviewCount": "26,663 reviews",
     "hours": "Open 24/7",
     "openMaps": "View Location"
   },
@@ -68,17 +68,19 @@
   "basicInfo": {
     "title": "Basic Information",
     "officialName": "Official Name",
-    "officialNameValue": "Rubjerg Knude",
+    "officialNameValue": "Pole Mokotowskie",
     "type": "Attraction Type",
-    "typeValue": "Coastal Cliffs, Sand Dune Landscape, Seaside Lighthouse, Nature Reserve",
+    "typeValue": "Urban Park, Large Green Space, Leisure Meadow",
     "country": "Country",
-    "countryValue": "Denmark",
+    "countryValue": "Poland",
     "city": "City",
-    "cityValue": "Løkken",
+    "cityValue": "Warsaw",
     "googleRating": "Google Rating",
     "phone": "Phone",
     "address": "Address",
-    "addressValue": "Fyrvejen 110, 9800 Løkken, Denmark"
+    "addressValue": "al. Niepodległości, Warszawa, Poland",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "6273+39 Warsaw, Poland"
   },
   "hours": {
     "title": "Opening Hours",
@@ -258,9 +260,9 @@
       "link1": "Ministry of Foreign Affairs Republic of Poland",
       "link2": "Polish Tourism Organisation",
       "link3": "National Institute of Cultural Heritage",
-      "link4": "Małopolska Tourism",
-      "link5": "Museum of Krakow",
-      "link6": "Krakow Official Tourism Board"
+      "link4": "City of Warsaw",
+      "link5": "National Library of Poland",
+      "link6": "Mazovia Province Government"
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
   },

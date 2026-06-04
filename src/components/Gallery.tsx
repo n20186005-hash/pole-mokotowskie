@@ -95,10 +95,10 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
-                href="https://maps.app.goo.gl/4VwNPngCGCqifTnH6"
+                href="https://maps.app.goo.gl/NDmzop8RQaVohjrT7"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm hover:underline"
+                className="text-sm hover:underline mt-2 sm:mt-0"
                 style={{ color: 'var(--accent)' }}
               >
                 {t('viewAll')}
