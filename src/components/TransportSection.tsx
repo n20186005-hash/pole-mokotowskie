@@ -8,63 +8,45 @@ export default function TransportSection() {
 
   const transportOptions = [
     {
-      key: 'airport',
+      id: 'airport',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M22 2L11 13"/>
-          <path d="M22 2L15 22 11 13 2 9 22 2z"/>
+          <path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
         </svg>
       ),
+      title: t('airport'),
+      description: t('airportDesc')
     },
     {
-      key: 'selfDrive',
+      id: 'train',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <rect x="1" y="3" width="15" height="13"/>
-          <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
-          <circle cx="5.5" cy="18.5" r="2.5"/>
-          <circle cx="18.5" cy="18.5" r="2.5"/>
+          <path d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
         </svg>
       ),
+      title: t('train'),
+      description: t('trainDesc')
     },
     {
-      key: 'bus',
+      id: 'city',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M8 6v6"/>
-          <path d="M16 6v6"/>
-          <path d="M2 12h20"/>
-          <path d="M4 6h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/>
-          <circle cx="7" cy="19" r="2"/>
-          <circle cx="17" cy="19" r="2"/>
+          <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />
         </svg>
       ),
+      title: t('city'),
+      description: t('cityDesc')
     },
     {
-      key: 'intercity',
+      id: 'public',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <rect x="4" y="3" width="16" height="16" rx="2"/>
-          <path d="M4 11h16"/>
-          <path d="M12 3v8"/>
-          <path d="M8 19l-2 3"/>
-          <path d="M18 22l-2-3"/>
-          <circle cx="8" cy="15" r="1"/>
-          <circle cx="16" cy="15" r="1"/>
+          <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
         </svg>
       ),
-    },
-    {
-      key: 'cycling',
-      icon: (
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <circle cx="5.5" cy="17.5" r="3.5"/>
-          <circle cx="18.5" cy="17.5" r="3.5"/>
-          <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-          <path d="M12 17.5V14l-3-3 4-3 2 3h2"/>
-        </svg>
-      ),
-    },
+      title: t('public'),
+      description: t('publicDesc')
+    }
   ];
 
   return (
@@ -81,10 +63,10 @@ export default function TransportSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {transportOptions.map((option) => (
             <TransportCard
-              key={option.key}
+              key={option.id}
               icon={option.icon}
-              title={t(option.key as any)}
-              description={t(`${option.key}Desc` as any)}
+              title={option.title}
+              description={option.description}
             />
           ))}
         </div>

@@ -17,40 +17,21 @@ export default function HoursSection() {
         </h2>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <TimeCard title={t('outdoor')} time={t('outdoorTime')} iconKey="outdoor" />
-          <TimeCard title={t('lighthouse')} time={t('summer')} timeValue={t('summerTime')} iconKey="lighthouse" />
-        </div>
-
-        <div className="mb-6">
-          <TimeCard title={t('winter')} time={t('winterTime')} iconKey="calendar" />
-        </div>
-
-        <div
-          className="rounded-xl p-5 flex items-start gap-4"
-          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
-            <circle cx="12" cy="12" r="10"/>
-            <line x1="12" y1="16" x2="12" y2="12"/>
-            <line x1="12" y1="8" x2="12.01" y2="8"/>
-          </svg>
-          <div>
-            <p className="font-medium mb-1" style={{ color: 'var(--text-primary)' }}>{t('warning')}</p>
-            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('warningTime')}</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <div className="bg-white/5 p-6 rounded-2xl">
+            <h3 className="text-lg font-medium mb-2">{t('outdoor')}</h3>
+            <p className="opacity-80">{t('outdoorTime')}</p>
+          </div>
+          <div className="bg-white/5 p-6 rounded-2xl">
+            <h3 className="text-lg font-medium mb-2">{t('restrooms')}</h3>
+            <p className="opacity-80">{t('restroomsTime')}</p>
+          </div>
+          <div className="bg-white/5 p-6 rounded-2xl">
+            <h3 className="text-lg font-medium mb-2">{t('trails')}</h3>
+            <p className="opacity-80">{t('trailsTime')}</p>
           </div>
         </div>
-
-        <div
-          className="mt-6 rounded-xl p-5 flex items-start gap-4"
-          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
-            <circle cx="12" cy="12" r="10"/>
-            <polyline points="12 6 12 12 16 14"/>
-          </svg>
-          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('tip')}</p>
-        </div>
+        <p className="text-center text-sm opacity-80">{t('tip')}</p>
       </div>
     </section>
   );

@@ -40,15 +40,8 @@ export default function Reviews() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
-        <p
-          className="text-sm leading-relaxed mb-10 max-w-2xl"
-          style={{ color: 'var(--text-muted)' }}
-        >
-          {t('declaration')}
-        </p>
-
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
+          {items.map((review: any, i: number) => (
             <div
               key={i}
               className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
@@ -65,13 +58,13 @@ export default function Reviews() {
                       className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
                       style={{ background: 'var(--accent)' }}
                     >
-                      {review.name.charAt(0)}
+                      {review.author?.charAt(0) || 'A'}
                     </div>
                     <span
                       className="text-sm font-semibold"
                       style={{ color: 'var(--text-primary)' }}
                     >
-                      {review.name}
+                      {review.author}
                     </span>
                   </div>
                 </div>
@@ -99,7 +92,7 @@ export default function Reviews() {
               border: '1px solid var(--accent)',
             }}
           >
-            <span>{t('moreReviews')}</span>
+            <span>{t('viewMore')}</span>
             <svg
               width="16"
               height="16"

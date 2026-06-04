@@ -1,65 +1,43 @@
 import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
-  const locale = useLocale();
-  const prefix = `/${locale}`;
 
   return (
-    <footer
-      className="py-12 px-4 sm:px-6"
-      style={{ background: 'var(--bg-tertiary)', borderTop: '1px solid var(--border-color)' }}
-    >
-      <div className="max-w-5xl mx-auto">
-        <div className="flex flex-col sm:flex-row justify-between items-start gap-8 mb-8">
-          <div className="max-w-md">
-            <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
-              Pole Mokotowskie
-            </h3>
-            <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
-              {t('officialResourcesTitle')}
-            </p>
+    <footer className="py-12 mt-20 border-t border-white/10">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h3 className="text-lg font-medium mb-4">{t('about')}</h3>
+            <p className="text-sm opacity-60 max-w-sm whitespace-pre-wrap">{t('description')}</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-medium mb-4">{t('official')}</h3>
             <div className="flex flex-col gap-2">
-              <a href="https://www.gov.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.link1')}
+              <a href="https://www.gov.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                波兰共和国外交与签证
               </a>
-              <a href="https://www.poland.travel/en/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.link2')}
+              <a href="https://www.poland.travel/en/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                波兰国家旅游局
               </a>
-              <a href="https://nid.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.link3')}
+              <a href="https://nid.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                波兰国家遗产研究院
               </a>
-              <a href="https://zielona.um.warszawa.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.link4')}
+              <a href="https://zielona.um.warszawa.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                华沙市政府
               </a>
-              <a href="https://www.bn.org.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.link5')}
+              <a href="https://www.bn.org.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                波兰国家图书馆
               </a>
-              <a href="https://www.mazovia.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.link6')}
+              <a href="https://www.mazovia.pl/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm opacity-60 hover:opacity-100 transition-opacity">
+                马佐夫舍省政府
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
-            <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
-              {t('privacy')}
-            </a>
-            <a href={`${prefix}/terms-of-service`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
-              {t('terms')}
-            </a>
-            <a href={`${prefix}/cookie-settings`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
-              {t('cookies')}
-            </a>
-          </div>
         </div>
-
-        <div
-          className="pt-6 text-center text-sm space-y-4"
-          style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
-        >
+        
+        <div className="pt-8 border-t border-white/10 text-center text-sm opacity-60">
           <p>{t('rights')}</p>
-          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
         </div>
       </div>
     </footer>

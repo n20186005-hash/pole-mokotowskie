@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Rubjerg Knude｜Denmark's North Sea Coast Cliffs, Sand Dunes & Lighthouse - Best European Spots",
-    "description": "Complete guide to Rubjerg Knude in Denmark. Learn about opening hours, transportation, ticket info, tour tips and stunning photos. Iconic North Sea coastal sand dunes, dramatic cliffs, and century-old lighthouse."
+    "title": "Pole Mokotowskie｜Warschaus größter städtischer Grünraum & lokales Freizeitparadies",
+    "description": "Kompletter Reiseführer zum Pole Mokotowskie in Warschau, Polen. Erfahren Sie alles über Öffnungszeiten, Transport, Tipps und atemberaubende Fotos. Warschaus zentraler großer Grünraum."
   },
   "header": {
     "home": "Home",
@@ -19,8 +19,8 @@
     "openMaps": "View Location"
   },
   "intro": {
-    "title": "Discover Rubjerg Knude",
-    "description": "The first time you step into Rubjerg Knude, you'll instantly be wrapped in the unique wild coastal atmosphere of the North Sea in Northern Europe. There are no manicured attractions, only endless flowing golden sand dunes, steep sea cliffs, and the old lighthouse standing in the sand, slowly being enveloped by wind and sand — desolate yet breathtaking.\n\nThe strong sea wind carries the scent of seawater and sand, rushing towards you. In the distance, the vast North Sea stretches endlessly, waves crash against the shore layer by layer, and the view is boundless. The rolling sand dunes are soft and thick, constantly reshaped by the wind — every moment here offers a unique landscape.\n\nThe old lighthouse stands lonely atop the dunes, having spent a century accompanying the wind and sand. From a former coastal navigation beacon to a niche natural heritage slowly being consumed by nature — the atmosphere is incredible. There are no crowded commercial areas, no noisy tourists. Only the sound of wind, waves, and endless wilderness. Standing at the cliff's edge, all your troubles will be soothed by the vast coastal scenery.\n\nSunset is the highlight of Rubjerg Knude. The setting sun paints the dunes and sea in warm orange hues, the lighthouse's silhouette gentle in the twilight. The loneliness and romance of the wild coast blend perfectly at this moment, making it one of the must-see coastal sunset spots in Northern Denmark.",
+    "title": "Discover Pole Mokotowskie",
+    "description": "The first time you step into Pole Mokotowskie, you'll instantly be wrapped in the unique wild coastal atmosphere of the North Sea in Northern Europe. There are no manicured attractions, only endless flowing golden sand dunes, steep sea cliffs, and the old lighthouse standing in the sand, slowly being enveloped by wind and sand — desolate yet breathtaking.\n\nThe strong sea wind carries the scent of seawater and sand, rushing towards you. In the distance, the vast North Sea stretches endlessly, waves crash against the shore layer by layer, and the view is boundless. The rolling sand dunes are soft and thick, constantly reshaped by the wind — every moment here offers a unique landscape.\n\nThe old lighthouse stands lonely atop the dunes, having spent a century accompanying the wind and sand. From a former coastal navigation beacon to a niche natural heritage slowly being consumed by nature — the atmosphere is incredible. There are no crowded commercial areas, no noisy tourists. Only the sound of wind, waves, and endless wilderness. Standing at the cliff's edge, all your troubles will be soothed by the vast coastal scenery.\n\nSunset is the highlight of Pole Mokotowskie. The setting sun paints the dunes and sea in warm orange hues, the lighthouse's silhouette gentle in the twilight. The loneliness and romance of the wild coast blend perfectly at this moment, making it one of the must-see coastal sunset spots in Northern Denmark.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -41,12 +41,12 @@
     }
   },
   "knowledge": {
-    "title": "The Charm of Rubjerg Knude",
+    "title": "The Charm of Pole Mokotowskie",
     "sections": [
       {
         "id": "history",
         "title": "A Century of Coastal Changes",
-        "content": "The Rubjerg Knude area features unique flowing sand dune terrain due to persistent strong sea winds and sand movement. The Rubjerg Lighthouse was built in the 19th century, originally serving as a navigation beacon for North Sea vessels. After its construction, the surrounding sand dunes rapidly advanced year by year, constantly engulfing surrounding land and buildings. The lighthouse suffered long-term burial by sand and erosion from sea winds, gradually losing its original navigation function. The local government conducted multiple sand dune management and building protection projects to slow the erosion, eventually designating the lighthouse and surrounding coast as a nature reserve and travel destination open to the public. Over centuries, the coastline has continuously changed and sand dunes kept moving. This land preserves the complete traces of the North Sea coast's unique natural evolution, transforming from a practical maritime facility to a niche natural travel landmark in Northern Europe, attracting global tourists."
+        "content": "The Pole Mokotowskie area features unique flowing sand dune terrain due to persistent strong sea winds and sand movement. The Rubjerg Lighthouse was built in the 19th century, originally serving as a navigation beacon for North Sea vessels. After its construction, the surrounding sand dunes rapidly advanced year by year, constantly engulfing surrounding land and buildings. The lighthouse suffered long-term burial by sand and erosion from sea winds, gradually losing its original navigation function. The local government conducted multiple sand dune management and building protection projects to slow the erosion, eventually designating the lighthouse and surrounding coast as a nature reserve and travel destination open to the public. Over centuries, the coastline has continuously changed and sand dunes kept moving. This land preserves the complete traces of the North Sea coast's unique natural evolution, transforming from a practical maritime facility to a niche natural travel landmark in Northern Europe, attracting global tourists."
       },
       {
         "id": "architecture",
@@ -61,7 +61,7 @@
       {
         "id": "experience",
         "title": "Core Experience",
-        "content": "Sunset is the highlight of Rubjerg Knude. The setting sun paints the dunes and sea in warm orange hues, the lighthouse's silhouette gentle in the twilight. The loneliness and romance of the wild coast blend perfectly at this moment, making it one of the must-see coastal sunset spots in Northern Denmark. There are long-distance cycling routes along the coast, allowing cycling enthusiasts to ride directly along the coastal road while enjoying the North Sea scenery."
+        "content": "Sunset is the highlight of Pole Mokotowskie. The setting sun paints the dunes and sea in warm orange hues, the lighthouse's silhouette gentle in the twilight. The loneliness and romance of the wild coast blend perfectly at this moment, making it one of the must-see coastal sunset spots in Northern Denmark. There are long-distance cycling routes along the coast, allowing cycling enthusiasts to ride directly along the coastal road while enjoying the North Sea scenery."
       }
     ]
   },
@@ -116,7 +116,7 @@
     "selfDrive": "Self-Drive (Most Convenient)",
     "selfDriveDesc": "Driving from Løkken city center is the most convenient option. The scenic area has free outdoor parking. Driving time is approximately 10 minutes.",
     "bus": "Regional Bus",
-    "busDesc": "Public transport via Løkken local regional buses directly to the Rubjerg Knude scenic area entrance. Walk 800 meters from the bus stop to the entrance.",
+    "busDesc": "Public transport via Løkken local regional buses directly to the Pole Mokotowskie scenic area entrance. Walk 800 meters from the bus stop to the entrance.",
     "intercity": "Intercity Bus",
     "intercityDesc": "From Aalborg city center and surrounding cities, take intercity buses to Løkken, then transfer to short-distance transport to the scenic area.",
     "cycling": "Cycling",
@@ -128,7 +128,7 @@
     "title": "Recommended Route",
     "overview": "Recommended to visit during daytime with calm or light wind. Enter from the main trail, visit the sand dune trail, cliff observation deck, and Rubjerg Lighthouse core area in sequence. Stroll along the coastal boardwalk to enjoy the North Sea views. The entire walk is relaxing and easy. Standard visit takes about 2 hours; extended photography and coastal loop hiking can extend to half a day.",
     "steps": [
-      "Arrive at the scenic area parking lot or bus stop, walk to the Rubjerg Knude main entrance",
+      "Arrive at the scenic area parking lot or bus stop, walk to the Pole Mokotowskie main entrance",
       "Follow the wooden protective boardwalk deep into the sand dune area, experience the flowing yellow sand terrain up close",
       "Continue to the famous Rubjerg Lighthouse, view the exterior architecture and sand dune embrace landscape",
       "Head to the north cliff observation platform, overlook the North Sea coastline and offshore rocky views",
@@ -201,9 +201,9 @@
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "Rubjerg Knude Coastal Cliffs, Sand Dunes & Lighthouse",
+    "subtitle": "Pole Mokotowskie Coastal Cliffs, Sand Dunes & Lighthouse",
     "captions": [
-      "Rubjerg Knude Panoramic View",
+      "Pole Mokotowskie Panoramic View",
       "Sand Dunes and Lighthouse",
       "North Sea Coastline",
       "Flowing Sand Dunes",
@@ -251,7 +251,7 @@
     "openMaps": "View on Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Rubjerg Knude Independent Travel Research Association · All rights reserved.",
+    "rights": "© 2026 Pole Mokotowskie Independent Travel Research Association · All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
@@ -330,8 +330,8 @@
     "saved": "Preferences saved!"
   },
   "officialManagement": {
-    "title": "About Rubjerg Knude",
-    "text": "Rubjerg Knude is managed and maintained by the Danish Nature Agency, and is one of the most important coastal natural heritage sites in Northern Denmark.\n\nAs an iconic natural landmark of the North Sea coast, Rubjerg Knude has witnessed centuries of unique natural evolution through coastline changes and sand dune movement. Today, the scenic area is open to the public free of charge, offering an excellent destination for exploring Denmark's coastal wilderness and an important window for visitors worldwide to experience Nordic natural charm."
+    "title": "About Pole Mokotowskie",
+    "text": "Pole Mokotowskie is managed and maintained by the Danish Nature Agency, and is one of the most important coastal natural heritage sites in Northern Denmark.\n\nAs an iconic natural landmark of the North Sea coast, Pole Mokotowskie has witnessed centuries of unique natural evolution through coastline changes and sand dune movement. Today, the scenic area is open to the public free of charge, offering an excellent destination for exploring Denmark's coastal wilderness and an important window for visitors worldwide to experience Nordic natural charm."
   },
   "recommendations": {
     "title": "Discover More",
