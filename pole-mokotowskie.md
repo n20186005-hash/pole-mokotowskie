@@ -1,3 +1,21 @@
+1、删除
+
+© 2026 Rubjerg Knude Independent Travel Research Association · All rights reserved.
+
+2、This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.
+
+这一句再其他语言下没切换过来
+
+
+
+
+
+
+
+
+
+
+
 
 
 景点是Pole Mokotowskie

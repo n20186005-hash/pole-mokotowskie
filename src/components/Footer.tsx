@@ -50,9 +50,8 @@ export default function Footer() {
         
         <div className="pt-8 border-t border-white/10 text-center text-sm opacity-60 space-y-2">
           <p>{t('rights')}</p>
-          <p>© 2026 Rubjerg Knude Independent Travel Research Association · All rights reserved.</p>
           <p className="max-w-2xl mx-auto mt-4 text-xs opacity-80">
-            This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.
+            {t('disclaimer')}
           </p>
         </div>
       </div>
