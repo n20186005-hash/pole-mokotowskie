@@ -1,5 +1,119 @@
 
 
+景点是Pole Mokotowskie
+
+不是
+
+Rubjerg Knude
+
+
+
+1、页头Rubjerg Knude 不对要改回来
+
+2、目前页面内容还是错误的需要改成Pole Mokotowskie 景点
+
+
+
+
+
+
+
+
+
+开放时间
+
+门票价格
+
+页面UI错误需要修正
+
+
+
+照片画廊
+
+精彩照片 显示照片不全目前只显示8张，需要有显示完整照片显示功能
+
+检查照片名称是否正确并修正
+
+
+
+在 Google Maps 查看
+
+改成
+
+在 Google Maps 查看更多照片
+
+
+
+游客评价需要补全到8条，评价不要胡编乱造要提取自https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+
+在Google地图上查看位置
+
+改成
+
+在 Google Maps 查看更多评价
+
+
+
+© 2026 莫科托夫斯基原野旅游指南 · 保留所有权利。
+
+下方要新增
+
+
+
+© 2026 Rubjerg Knude Independent Travel Research Association · All rights reserved.
+
+
+
+This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.
+
+
+
+页脚
+
+删除
+
+关于莫科托夫斯基原野
+
+莫科托夫斯基原野（Pole Mokotowskie）是波兰华沙最大的城市公园之一，位于城市中心地带。这里拥有广阔的草坪、宁静的湖泊和茂密的树林，是华沙市民日常休闲、运动和接触自然的重要场所。
+
+
+
+新增
+
+新增
+
+Privacy Policy
+
+Terms of Service
+
+Cookie Settings
+
+
+
+
+
+
+
+
+
+
+
+https://www.mokotowskiepark.com/
+
+网站信息错误需要根据以下信息修正
+
+马佐夫舍省	Pole Mokotowskie
+
+Pole Mokotowskie
+
+4.7(26,663)
+
+
+
+al. Niepodległości, Warszawa, 波兰
+
+6273+39 华沙 波兰
+
 
 
 
@@ -32,7 +146,7 @@ mokotowskiepark.com
 
 邮政编码\*：00-595（Pole Mokotowskie 片区通用邮编）
 
-slug 格式（小写连字符）
+
 
 
 
@@ -72,30 +186,6 @@ https://maps.app.goo.gl/NDmzop8RQaVohjrT7
 
 
 
-波兰共和国外交与签证
-
-https://www.gov.pl/
-
-波兰国家旅游局
-
-https://www.poland.travel/en/
-
-波兰国家遗产研究院
-
-https://nid.pl/
-
-华沙市政府
-
-https://zielona.um.warszawa.pl/
-
-波兰国家图书馆
-
-https://www.bn.org.pl/
-
-马佐夫舍省政府
-
-https://www.mazovia.pl/
-
 
 
 
@@ -105,36 +195,6 @@ https://www.mazovia.pl/
 首屏背景图要引用
 
 C:\\Users\\Administrator\\Documents\\GitHub\\pole-mokotowskie\\public\\gallery\\images (1).jpg
-
-
-
-
-
-删除原先友情链接，新增以下友情链接
-
-波兰共和国外交与签证
-
-https://www.gov.pl/
-
-波兰国家旅游局
-
-https://www.poland.travel/en/
-
-波兰国家遗产研究院
-
-https://nid.pl/
-
-小波兰省旅游
-
-https://www.malopolska.pl/
-
-克拉科夫博物馆
-
-https://muzeumkrakowa.pl/
-
-克拉科夫官方旅游局
-
-https://krakow.travel/
 
 
 
@@ -161,6 +221,36 @@ https://krakow.travel/
 
 
 删除 探索更多 板块
+
+
+
+删除原先友情链接，新增以下友情链接
+
+波兰共和国外交与签证
+
+https://www.gov.pl/
+
+波兰国家旅游局
+
+https://www.poland.travel/en/
+
+波兰国家遗产研究院
+
+https://nid.pl/
+
+华沙市政府
+
+https://zielona.um.warszawa.pl/
+
+波兰国家图书馆
+
+https://www.bn.org.pl/
+
+马佐夫舍省政府
+
+https://www.mazovia.pl/
+
+
 
 
 

@@ -16,15 +16,14 @@ export default function TicketsSection() {
         </h2>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Outdoor Free */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div
-            className="rounded-2xl p-6 sm:p-8"
+            className="rounded-2xl p-6 sm:p-8 col-span-1 md:col-span-2"
             style={{ background: 'var(--bg-tertiary)', border: '2px solid var(--accent)' }}
           >
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-4">
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center"
+                className="w-12 h-12 rounded-full flex items-center justify-center shrink-0"
                 style={{ background: 'var(--accent)' }}
               >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
@@ -36,23 +35,23 @@ export default function TicketsSection() {
                 <h3 className="font-display text-xl font-semibold" style={{ color: 'var(--text-primary)' }}>
                   {t('outdoor')}
                 </h3>
-                <p className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{t('outdoorPrice')}</p>
+                <p className="text-xl font-bold" style={{ color: 'var(--accent)' }}>{t('outdoorPrice')}</p>
               </div>
             </div>
           </div>
 
-            <div className="bg-white/5 p-6 rounded-2xl">
-              <h3 className="text-lg font-medium mb-2">{t('lake')}</h3>
-              <p className="opacity-80">{t('lakePrice')}</p>
-            </div>
-            <div className="bg-white/5 p-6 rounded-2xl">
-              <h3 className="text-lg font-medium mb-2">{t('plaza')}</h3>
-              <p className="opacity-80">{t('plazaPrice')}</p>
-            </div>
-            <div className="bg-white/5 p-6 rounded-2xl md:col-span-2 lg:col-span-3">
-              <h3 className="text-lg font-medium mb-2">{t('activities')}</h3>
-              <p className="opacity-80">{t('activitiesPrice')}</p>
-            </div>
+          <div className="p-6 rounded-2xl" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h3 className="text-lg font-medium mb-2 text-[var(--text-primary)]">{t('lake')}</h3>
+            <p className="text-[var(--text-secondary)]">{t('lakePrice')}</p>
+          </div>
+          <div className="p-6 rounded-2xl" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h3 className="text-lg font-medium mb-2 text-[var(--text-primary)]">{t('plaza')}</h3>
+            <p className="text-[var(--text-secondary)]">{t('plazaPrice')}</p>
+          </div>
+          <div className="p-6 rounded-2xl md:col-span-2" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h3 className="text-lg font-medium mb-2 text-[var(--text-primary)]">{t('activities')}</h3>
+            <p className="text-[var(--text-secondary)]">{t('activitiesPrice')}</p>
+          </div>
         </div>
 
         {/* Travel Pass */}

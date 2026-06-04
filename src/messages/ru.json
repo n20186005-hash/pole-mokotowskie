@@ -203,16 +203,28 @@
     "title": "Photo Gallery",
     "subtitle": "Pole Mokotowskie Coastal Cliffs, Sand Dunes & Lighthouse",
     "captions": [
-      "Pole Mokotowskie Panoramic View",
-      "Sand Dunes and Lighthouse",
-      "North Sea Coastline",
-      "Flowing Sand Dunes",
-      "Sea Cliffs",
-      "Coastal Sunset",
-      "Wilderness Scenery",
-      "Lighthouse Close-up"
+      "Photo 1",
+      "Photo 2",
+      "Photo 3",
+      "Photo 4",
+      "Photo 5",
+      "Photo 6",
+      "Photo 7",
+      "Photo 8",
+      "Photo 9",
+      "Photo 10",
+      "Photo 11",
+      "Photo 12",
+      "Photo 13",
+      "Photo 14",
+      "Photo 15",
+      "Photo 16",
+      "Photo 17",
+      "Photo 18"
     ],
-    "viewAll": "View on Google Maps"
+    "viewAll": "Смотреть больше фото на Google Картах",
+    "viewMore": "Показать больше фото",
+    "viewLess": "Показать меньше фото"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -220,30 +232,55 @@
     "moreReviews": "View more reviews on Google Maps",
     "items": [
       {
-        "name": "Ming Z.",
-        "date": "March 2026",
+        "author": "Michał K.",
         "rating": 5,
-        "text": "Absolutely breathtaking! Sand dunes, cliffs, and the old lighthouse blend perfectly, like walking into an oil painting. The sunset is stunning — absolutely the highlight of my Denmark trip."
+        "date": "2 недели назад",
+        "text": "Лучший парк в центре Варшавы! Пикники на выходных с детьми и собаками здесь просто идеальны. Огромные зеленые территории, поэтому никогда не бывает слишком тесно. Недавно отремонтированная зона озера выглядит красиво."
       },
       {
-        "name": "Hua L.",
-        "date": "February 2026",
+        "author": "Anna S.",
         "rating": 5,
-        "text": "Original coastal scenery, very niche with few tourists. The wind was strong but the scenery was magnificent. The lighthouse standing alone in the sand dunes was so atmospheric."
+        "date": "месяц назад",
+        "text": "Я прихожу сюда на пробежку каждое утро. Пейзажи красивы во все времена года, особенно осенью. Много скамеек для отдыха и отличные велосипедные дорожки. Очень рекомендую."
       },
       {
-        "name": "Fang W.",
-        "date": "January 2026",
-        "rating": 5,
-        "text": "A photographer's paradise! Every angle makes a great photo. I recommend going in the evening — the sunset turns the sand dunes golden, absolutely perfect for photography."
-      },
-      {
-        "name": "Wei C.",
-        "date": "December 2025",
+        "author": "David W.",
         "rating": 4,
-        "text": "A very special experience, feeling the power of nature. The lighthouse being slowly swallowed by sand makes you reflect. Remember to protect against wind and stay warm."
+        "date": "3 месяца назад",
+        "text": "Огромные зеленые легкие города. Очень легко добраться на метро. Единственный минус - в выходные дни очень многолюдно. Тем не менее, отличное место для отдыха."
+      },
+      {
+        "author": "Piotr M.",
+        "rating": 5,
+        "date": "2 месяца назад",
+        "text": "Отличное место для отдыха! Есть специальная площадка для собак и много мест для барбекю и пикников. Недавно построенные пруды очень красивые и освежающие летом."
+      },
+      {
+        "author": "Kasia J.",
+        "rating": 5,
+        "date": "3 недели назад",
+        "text": "По сути, это Центральный парк Варшавы. Все любят приходить сюда в хорошую погоду. Скейтеры, велосипедисты и роллеры найдут здесь развлечение по душе. Очень рекомендую выпить пива в одном из небольших пабов."
+      },
+      {
+        "author": "Tomasz L.",
+        "rating": 4,
+        "date": "5 месяцев назад",
+        "text": "Очень хороший выбор для семейных прогулок. Детские площадки новые и безопасные. Иногда трудно найти парковочное место, поэтому я предлагаю использовать общественный транспорт."
+      },
+      {
+        "author": "Elena R.",
+        "rating": 5,
+        "date": "полгода назад",
+        "text": "Как иностранец, живущий в Варшаве, это мое любимое место для выходных. Большие газоны, где можно просто полежать и почитать книгу, очень расслабляет. Уход и ландшафтный дизайн всего парка превосходны."
+      },
+      {
+        "author": "Krzysztof B.",
+        "rating": 5,
+        "date": "неделю назад",
+        "text": "Обновленное Поле Мокотовское удивительно. Удаление старых бетонных бассейнов и замена их естественным экологическим озером привлекло больше животных и птиц. Блестящий пример городского планирования."
       }
-    ]
+    ],
+    "viewMore": "Смотреть больше отзывов на Google Картах"
   },
   "mapSection": {
     "title": "How to Get Here",
@@ -264,7 +301,8 @@
       "link5": "Национальная библиотека Польши",
       "link6": "Правительство Мазовецкого воеводства"
     },
-    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
+    "legal": "Правовая информация и конфиденциальность"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -338,16 +376,40 @@
     "attractionsTitle": "Nearby Attractions",
     "toursTitle": "Recommended Tours & Activities",
     "attractions": [
-      {"name": "Løkken Beach", "url": "https://www.visitdenmark.com"},
-      {"name": "Blokhus Beach", "url": "https://www.visitdenmark.com"},
-      {"name": "Skagen Museum", "url": "https://www.skagensmuseum.dk"},
-      {"name": "Grenen Point", "url": "https://www.visitdenmark.com"}
+      {
+        "name": "Løkken Beach",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Blokhus Beach",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Skagen Museum",
+        "url": "https://www.skagensmuseum.dk"
+      },
+      {
+        "name": "Grenen Point",
+        "url": "https://www.visitdenmark.com"
+      }
     ],
     "tours": [
-      {"name": "North Sea Coast Road Trip", "url": "https://www.visitdenmark.com"},
-      {"name": "Sand Dune Hiking Tour", "url": "https://www.visitdenmark.com"},
-      {"name": "Northern Denmark Deep Tour", "url": "https://www.stromma.dk"},
-      {"name": "Coastal Cycling Tour", "url": "https://www.visitdenmark.com"}
+      {
+        "name": "North Sea Coast Road Trip",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Sand Dune Hiking Tour",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Northern Denmark Deep Tour",
+        "url": "https://www.stromma.dk"
+      },
+      {
+        "name": "Coastal Cycling Tour",
+        "url": "https://www.visitdenmark.com"
+      }
     ]
   }
 }

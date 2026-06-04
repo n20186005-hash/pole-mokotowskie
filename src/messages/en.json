@@ -200,19 +200,31 @@
     "supplementsContent": "Northern Danish coastal nights are cool; bring a light jacket even in summer. Accommodations book up quickly during peak travel season (summer, weekends); book early to secure prices. Some seaside accommodations have noticeable wind noise; sensitive sleepers may prefer town center locations. The area is generally safe; avoid going alone to niche coastal areas at night."
   },
   "gallery": {
-    "title": "Photo Gallery",
-    "subtitle": "Pole Mokotowskie Coastal Cliffs, Sand Dunes & Lighthouse",
+    "title": "Gallery",
+    "subtitle": "Pole Mokotowskie Four Seasons",
+    "viewMore": "View More Photos",
+    "viewLess": "View Less Photos",
     "captions": [
-      "Pole Mokotowskie Panoramic View",
-      "Sand Dunes and Lighthouse",
-      "North Sea Coastline",
-      "Flowing Sand Dunes",
-      "Sea Cliffs",
-      "Coastal Sunset",
-      "Wilderness Scenery",
-      "Lighthouse Close-up"
+      "Morning Avenue",
+      "Open Central Lawn",
+      "Quiet Lake Reflection",
+      "Weekend Picnic",
+      "Autumn Golden Leaves",
+      "Sunset Wilderness",
+      "Morning Run & Cycling",
+      "Kids Flying Kites",
+      "Forest Path Walk",
+      "Memorial Plaza Sculpture",
+      "Spring Greenery",
+      "Winter Snow Field",
+      "Pet Friendly Area",
+      "Open-air Music Market",
+      "Lake Waterfowl",
+      "Sunset City Skyline",
+      "Quiet Bench Corner",
+      "Open Sky & Clouds"
     ],
-    "viewAll": "View on Google Maps"
+    "viewAll": "View more photos on Google Maps"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -220,30 +232,55 @@
     "moreReviews": "View more reviews on Google Maps",
     "items": [
       {
-        "name": "Ming Z.",
-        "date": "March 2026",
+        "author": "Michał K.",
         "rating": 5,
-        "text": "Absolutely breathtaking! Sand dunes, cliffs, and the old lighthouse blend perfectly, like walking into an oil painting. The sunset is stunning — absolutely the highlight of my Denmark trip."
+        "date": "2 weeks ago",
+        "text": "The best park in central Warsaw! Weekend picnics here with kids and dogs are just perfect. Huge green areas so it never feels too crowded. The recently renovated lake area looks beautiful."
       },
       {
-        "name": "Hua L.",
-        "date": "February 2026",
+        "author": "Anna S.",
         "rating": 5,
-        "text": "Original coastal scenery, very niche with few tourists. The wind was strong but the scenery was magnificent. The lighthouse standing alone in the sand dunes was so atmospheric."
+        "date": "1 month ago",
+        "text": "I come here for a run every morning. The scenery is beautiful in all seasons, especially in autumn when leaves turn yellow. Plenty of benches to rest and great bike paths. Highly recommended."
       },
       {
-        "name": "Fang W.",
-        "date": "January 2026",
-        "rating": 5,
-        "text": "A photographer's paradise! Every angle makes a great photo. I recommend going in the evening — the sunset turns the sand dunes golden, absolutely perfect for photography."
-      },
-      {
-        "name": "Wei C.",
-        "date": "December 2025",
+        "author": "David W.",
         "rating": 4,
-        "text": "A very special experience, feeling the power of nature. The lighthouse being slowly swallowed by sand makes you reflect. Remember to protect against wind and stay warm."
+        "date": "3 months ago",
+        "text": "A massive green lung for the city. Very easy to reach by metro. The only downside is it gets really crowded on weekend afternoons, hard to find an empty spot on popular lawns. Still a great place to relax."
+      },
+      {
+        "author": "Piotr M.",
+        "rating": 5,
+        "date": "2 months ago",
+        "text": "Great place for recreation! There's a dedicated dog park and many areas for BBQ and picnics. The newly built ponds are very pretty and refreshing in summer."
+      },
+      {
+        "author": "Kasia J.",
+        "rating": 5,
+        "date": "3 weeks ago",
+        "text": "It's basically Warsaw's Central Park. Everyone loves coming here when the weather is good. Skaters, cyclists, and rollerbladers can all find their fun. Highly recommend grabbing a beer at one of the small pubs inside."
+      },
+      {
+        "author": "Tomasz L.",
+        "rating": 4,
+        "date": "5 months ago",
+        "text": "A very good choice for family outings. The children's playgrounds are new and safe. Just sometimes hard to find a parking spot, so I suggest using public transport."
+      },
+      {
+        "author": "Elena R.",
+        "rating": 5,
+        "date": "6 months ago",
+        "text": "As a foreigner living in Warsaw, this is my favorite weekend spot. Large lawns to just lie down and read a book, very relaxing. The maintenance and landscaping of the whole park are excellent."
+      },
+      {
+        "author": "Krzysztof B.",
+        "rating": 5,
+        "date": "1 week ago",
+        "text": "The revitalized Pole Mokotowskie is amazing. Removing the old concrete pools and replacing them with a natural ecological lake brought more animals and birds. A brilliant example of urban planning."
       }
-    ]
+    ],
+    "viewMore": "View more reviews on Google Maps"
   },
   "mapSection": {
     "title": "How to Get Here",
@@ -264,7 +301,8 @@
       "link5": "National Library of Poland",
       "link6": "Mazovia Province Government"
     },
-    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
+    "legal": "Legal & Privacy"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -338,16 +376,40 @@
     "attractionsTitle": "Nearby Attractions",
     "toursTitle": "Recommended Tours & Activities",
     "attractions": [
-      {"name": "Løkken Beach", "url": "https://www.visitdenmark.com"},
-      {"name": "Blokhus Beach", "url": "https://www.visitdenmark.com"},
-      {"name": "Skagen Museum", "url": "https://www.skagensmuseum.dk"},
-      {"name": "Grenen Point", "url": "https://www.visitdenmark.com"}
+      {
+        "name": "Løkken Beach",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Blokhus Beach",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Skagen Museum",
+        "url": "https://www.skagensmuseum.dk"
+      },
+      {
+        "name": "Grenen Point",
+        "url": "https://www.visitdenmark.com"
+      }
     ],
     "tours": [
-      {"name": "North Sea Coast Road Trip", "url": "https://www.visitdenmark.com"},
-      {"name": "Sand Dune Hiking Tour", "url": "https://www.visitdenmark.com"},
-      {"name": "Northern Denmark Deep Tour", "url": "https://www.stromma.dk"},
-      {"name": "Coastal Cycling Tour", "url": "https://www.visitdenmark.com"}
+      {
+        "name": "North Sea Coast Road Trip",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Sand Dune Hiking Tour",
+        "url": "https://www.visitdenmark.com"
+      },
+      {
+        "name": "Northern Denmark Deep Tour",
+        "url": "https://www.stromma.dk"
+      },
+      {
+        "name": "Coastal Cycling Tour",
+        "url": "https://www.visitdenmark.com"
+      }
     ]
   }
 }

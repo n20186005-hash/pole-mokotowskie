@@ -3,25 +3,16 @@
 import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/images (1).jpg', alt: '莫科托夫斯基原野全景' },
-  { src: '/gallery/images (2).jpg', alt: '金色流动沙丘' },
-  { src: '/gallery/images (3).jpg', alt: '被沙丘掩埋的灯塔' },
-  { src: '/gallery/images (4).jpg', alt: '陡峭的海岸悬崖' },
-  { src: '/gallery/images (5).jpg', alt: '北海壮阔海景' },
-  { src: '/gallery/images (6).jpg', alt: '灯塔内部遗迹' },
-  { src: '/gallery/images (7).jpg', alt: '沙丘上的徒步者' },
-  { src: '/gallery/images (8).jpg', alt: '绝美海岸日落' },
-  { src: '/gallery/images (9).jpg', alt: '莫科托夫斯基原野' },
-  { src: '/gallery/images (10).jpg', alt: '沙丘步道' },
-  { src: '/gallery/images (11).jpg', alt: '北海风光' },
-  { src: '/gallery/images (12).jpg', alt: '灯塔剪影' },
-];
-
 export default function Gallery() {
   const t = useTranslations('gallery');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  const photos = Array.from({ length: 18 }, (_, i) => ({
+    src: `/gallery/images (${i + 1}).jpg`,
+    alt: t(`captions.${i}` as any)
+  }));
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
@@ -33,6 +24,8 @@ export default function Gallery() {
 
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
+
+  const displayedPhotos = showAll ? photos : photos.slice(0, 8);
 
   return (
     <>
@@ -49,7 +42,7 @@ export default function Gallery() {
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {photos.slice(0, 8).map((photo, i) => (
+              {displayedPhotos.map((photo, i) => (
                 <div
                   key={i}
                   className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
@@ -74,31 +67,20 @@ export default function Gallery() {
               ))}
             </div>
 
-            <button
-              onClick={goToPrevious}
-              className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Previous photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="15 18 9 12 15 6" />
-              </svg>
-            </button>
-            <button
-              onClick={goToNext}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Next photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
-            </button>
-
-            <div className="flex justify-center mt-6 gap-4 items-center">
+            <div className="flex flex-col items-center mt-10 gap-6">
+              <button
+                onClick={() => setShowAll(!showAll)}
+                className="px-6 py-2.5 rounded-full text-sm font-medium border transition-colors hover:bg-white/5"
+                style={{ color: 'var(--accent)', borderColor: 'var(--accent)' }}
+              >
+                {showAll ? t('viewLess') : t('viewMore')}
+              </button>
+              
               <a
                 href="https://maps.app.goo.gl/NDmzop8RQaVohjrT7"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm hover:underline mt-2 sm:mt-0"
+                className="text-sm hover:underline"
                 style={{ color: 'var(--accent)' }}
               >
                 {t('viewAll')}
