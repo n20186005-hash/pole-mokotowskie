@@ -1,14 +1,39 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
+import Link from 'next/link';
+import { siteConfig } from '@/config';
 
 export default function Intro() {
   const t = useTranslations('intro');
+  const tb = useTranslations('breadcrumb');
+  const locale = useLocale();
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
 
   return (
-    <section className="section-padding">
+    <section id="about" className="section-padding">
       <div className="max-w-4xl mx-auto">
+        <nav aria-label={tb('label')} className="mb-6">
+          <ol
+            className="flex flex-wrap items-center gap-2 text-xs"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            <li>
+              <Link href={`/${locale}`} className="hover:underline">
+                {tb('home')}
+              </Link>
+            </li>
+            <li aria-hidden="true">/</li>
+            <li>{tb('country')}</li>
+            <li aria-hidden="true">/</li>
+            <li>{tb('region')}</li>
+            <li aria-hidden="true">/</li>
+            <li>{tb('city')}</li>
+            <li aria-hidden="true">/</li>
+            <li style={{ color: 'var(--text-primary)' }}>{siteConfig.name}</li>
+          </ol>
+        </nav>
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}

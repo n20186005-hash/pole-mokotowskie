@@ -1,0 +1,51 @@
+   ▲ Next.js 15.5.14
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 40s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/27) ...
+   Generating static pages (6/27) 
+   Generating static pages (13/27) 
+   Generating static pages (20/27) 
+ ✓ Generating static pages (27/27)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS  Revalidate  Expire
+┌ ○ /                                      133 B         102 kB
+├ ○ /_not-found                            993 B         103 kB
+├ ● /[locale]                            6.23 kB         124 kB         30m      1y
+├   ├ /pl                                                               30m      1y
+├   ├ /en                                                               30m      1y
+├   ├ /zh                                                               30m      1y
+├   └ [+2 more paths]
+├ ● /[locale]/cookies                    1.55 kB         116 kB
+├   ├ /pl/cookies
+├   ├ /en/cookies
+├   ├ /zh/cookies
+├   └ [+2 more paths]
+├ ● /[locale]/privacy                      278 B         115 kB
+├   ├ /pl/privacy
+├   ├ /en/privacy
+├   ├ /zh/privacy
+├   └ [+2 more paths]
+├ ● /[locale]/terms                        278 B         115 kB
+├   ├ /pl/terms
+├   ├ /en/terms
+├   ├ /zh/terms
+├   └ [+2 more paths]
+├ ○ /manifest.webmanifest                  133 B         102 kB
+├ ○ /robots.txt                            133 B         102 kB
+└ ○ /sitemap.xml                           133 B         102 kB
++ First Load JS shared by all             102 kB
+  ├ chunks/255-38b49df12a94ee57.js         46 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.97 kB
+
+
+ƒ Middleware                             45.9 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

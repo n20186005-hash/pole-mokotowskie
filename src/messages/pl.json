@@ -1,22 +1,32 @@
 {
   "meta": {
-    "title": "Pole Mokotowskie｜Największa zielona przestrzeń miejska i lokalny raj rekreacyjny w Warszawie",
-    "description": "Kompletny przewodnik po Polu Mokotowskim w Warszawie, Polska. Dowiedz się o godzinach otwarcia, transporcie, wskazówkach i zobacz wspaniałe zdjęcia. Centralna duża przestrzeń zielona w Warszawie."
+    "title": "Pole Mokotowskie (Warszawa) – przewodnik, mapa i dojazd",
+    "description": "Przewodnik po Polu Mokotowskim w Warszawie: mapa, godziny otwarcia, staw, ścieżki rowerowe, Biblioteka Narodowa i dojazd metrem M1. Wstęp wolny, czynne całą dobę."
   },
   "header": {
-    "home": "Home",
-    "gallery": "Gallery",
-    "reviews": "Reviews",
-    "map": "Map",
-    "backToHome": "Back to Home"
+    "home": "Start",
+    "gallery": "Galeria",
+    "reviews": "Opinie",
+    "map": "Mapa",
+    "backToHome": "Powrót na stronę główną",
+    "highlights": "Atrakcje",
+    "transport": "Dojazd",
+    "facilities": "Udogodnienia",
+    "faq": "FAQ",
+    "stories": "Historia",
+    "weather": "Pogoda",
+    "guideTitle": "Przewodnik po Polu Mokotowskim w Warszawie",
+    "navLabel": "Sekcje strony"
   },
   "hero": {
-    "title": "Pole Mokotowskie",
-    "subtitle": "Ogromna centralna przestrzeń zielona Warszawy",
-    "rating": "4.7(26,663)",
-    "reviewCount": "26,663 opinii",
+    "title": "Pole Mokotowskie (Warszawa)",
+    "subtitle": "Największy centralny teren zielony Warszawy – wstęp wolny, czynne całą dobę, ocena 4,7/5 z ponad 26 800 opinii w Google",
+    "rating": "4.7",
+    "reviewCount": "26,875 opinii",
     "hours": "Otwarte całą dobę",
-    "openMaps": "Zobacz lokalizację"
+    "openMaps": "Zobacz w Google Maps",
+    "imgAlt": "Rozległe trawniki i staw na Polu Mokotowskim w Warszawie",
+    "freeEntry": "Wstęp wolny"
   },
   "intro": {
     "title": "Odkryj Pole Mokotowskie",
@@ -45,8 +55,8 @@
     "sections": [
       {
         "id": "history",
-        "title": "Wiek historii",
-        "content": "Teren Pola Mokotowskiego ma długą historię. Początkowo był to pusty nieużytek i buforowa przestrzeń zielona na obrzeżach miasta, ale wraz z rozbudową Warszawy został włączony do ogólnego planowania przestrzennego. Po II wojnie światowej Warszawa przeszła masową odbudowę, a miasto pilnie potrzebowało dużych publicznych terenów zielonych, aby złagodzić miejskie tempo. Ta dzicz została oficjalnie przekształcona w publiczny park miejski.\n\nWe wczesnych etapach budowy skupiono się na podstawowym zazielenieniu i prostych ścieżkach, podkreślając otwarty, oryginalny krajobraz i zachowując dziką teksturę miejsca. Po kilku rundach lekkich modernizacji dodano jeziora, obiekty rekreacyjne, boiska sportowe i krajobrazy pamięci, stopniowo doskonaląc jego funkcje i stając się kompleksową miejską zieloną przestrzenią rekreacyjną.\n\nPrzez wieki ta ziemia ewoluowała z podmiejskich nieużytków do bariery ekologicznej dla powojennej odbudowy miasta, a teraz do miejskiego salonu dzielonego przez wszystkich. Była świadkiem upadku i odrodzenia Warszawy, niesie codzienne wspomnienia pokoleń mieszkańców i stoi cicho w centrum miasta, obejmując rozległą zielenią historie całego miasta."
+        "title": "Z lotniska w park miejski",
+        "content": "Historia tego terenu jako przestrzeni publicznej zaczyna się w XIX wieku. W 1818 r. wyznaczono go pod ćwiczenia wojskowe, a od 1831 r. pełnił rolę Pola Wojennego Mokotowskiego. Szybko dołączyło życie cywilne: w 1841 r. na małym torze rozegrano pierwsze w Królestwie Polskim publiczne wyścigi konne, a w 1887 r. otwarto nowy tor przy ul. Polnej. Wyścigi wyprowadzono stąd dopiero w 1938 r., gdy powstał tor na Służewcu.\nPole Mokotowskie to kolebka polskiego lotnictwa. W 1909 r. odbyły się tu pierwsze w Polsce pokazy lotnicze; w 1910 r. założono lotnisko mokotowskie, a przy jego północnej krawędzi powstały warsztaty i hangary Awiata. Po zamknięciu Awiata w 1912 r. teren przejęła armia rosyjska, potem niemieckie sterowce, a po odzyskaniu niepodległości stacjonował tu 1 Pułk Lotniczy (1921–1933). Przez lata pole służyło też jako warszawskie lotnisko dla ruchu pasażerskiego — do 1934 r., gdy lotnictwo przeniosło się na Okęcie.\nW dwudziestoleciu międzywojennym pole pełniło funkcje uroczyste. 11 listopada 1934 r. marszałek Józef Piłsudski przyjmował tu ostatnią defiladę, a w maju 1935 r. stolica żegnała go właśnie na tym polu. W 1938 r. przedłużona al. Niepodległości przecięła teren na dwie części. Podczas II wojny światowej na polu stały niemieckie stanowiska artylerii przeciwlotniczej; 1 sierpnia 1944 r. o godzinie «W» zaatakowały je oddziały AK z obwodu Mokotów — atak nie powiódł się i przyniósł ciężkie straty.\nPo wojnie przy rogu al. Niepodległości i ul. Wawelskiej stanęło ok. 200 fińskich domków — daru ZSRR; w jednym z nich mieszkał w latach 1946–1955 przyszły reporter Ryszard Kapuściński. W 1973 r. zapadła decyzja o urządzeniu tu parku; projekt Stanisława Bolka realizowano w latach 70. i 80., równolegle z budową Biblioteki Narodowej. W 1988 r. park oficjalnie nazwano imieniem marszałka Piłsudskiego. W 1999 r. powstał krąg megalityczny, w 2010 r. otwarto ścieżkę edukacyjną im. Kapuścińskiego, a w latach 2021–2023 park przeszedł ekologiczną modernizację."
       },
       {
         "id": "architecture",
@@ -62,6 +72,11 @@
         "id": "experience",
         "title": "Kluczowe doświadczenie",
         "content": "Wejdź do parku wczesnym rankiem, spaceruj powoli wysadzanymi drzewami ścieżkami, oddychaj świeżym powietrzem i poczuj rzadki w mieście moment ciszy. Po południu rozłóż matę piknikową na trawniku, porozmawiaj i pomarz ze znajomymi, a także popatrz na dzieci goniące się i bawiące na trawie. O zmierzchu wybierz się na spacer promenadą nad jeziorem, podziwiaj panoramę miasta odbijającą się w jeziorze i obserwuj zachód słońca, który pokrywa całą dzicz ciepłymi, złotymi tonami.\n\nNie trzeba niczego celowo organizować; najlepszym doświadczeniem jest zwolnienie tempa, swobodne wędrówki i pozwolenie, aby zmęczenie miejskim życiem powoli ulotniło się w tej zielonej dziczy."
+      },
+      {
+        "id": "nature",
+        "title": "Przyroda i bioróżnorodność",
+        "content": "Pole Mokotowskie zajmuje ok. 73 ha: ok. 71% (ok. 48,6 ha) leży w dzielnicy Ochota, wschodni pas należy do Śródmieścia, a niewielki fragment do Mokotowa — to jeden z największych otwartych terenów zielonych w centrum Warszawy. Część zachodnia ma luźniejszą, swobodną kompozycję, a część wschodnia — bardziej regularny układ z fontanną w centrum.\nWedług badań botanicznych (2016–2017) rośnie tu 328 gatunków roślin naczyniowych. Gnieździ się ok. 36 gatunków ptaków, a ok. 30 kolejnych odwiedza park; wywieszono ponad 100 budek lęgowych, a cichy zakątek „Dziki Zakątek” pozostawiono naturze. Wśród ssaków dominują gryzonie, ale spotkać można wiewiórkę, jeża, lisa, a o zmierzchu borowca wielkiego. Częstymi gośćmi są rowerzyści: tylko w 2018 r. licznik rowerowy odnotował 823 912 przejazdów."
       }
     ]
   },
@@ -80,7 +95,11 @@
     "address": "Adres",
     "addressValue": "al. Niepodległości, Warszawa, Polska",
     "plusCode": "Plus Code",
-    "plusCodeValue": "6273+39 Warszawa, Polska"
+    "plusCodeValue": "6273+39 Warszawa, Polska",
+    "admission": "Wstęp",
+    "admissionValue": "Bezpłatny – brak biletów",
+    "openingHours": "Godziny otwarcia",
+    "openingHoursValue": "Czynne całą dobę, przez cały rok"
   },
   "hours": {
     "title": "Godziny otwarcia",
@@ -108,17 +127,18 @@
   "transport": {
     "title": "Transport",
     "airport": "Z lotniska Chopina",
-    "airportDesc": "Wsiądź w pociąg SKM lub autobus bezpośrednio do centrum miasta, a następnie przesiądź się w tramwaj lub autobus, aby dotrzeć do parku w około 30 minut. Taksówki i Uber są wygodne z bagażem.",
+    "airportDesc": "Z lotniska Chopina dojedź pociągiem SKM lub autobusem lotniskowym do centrum (ok. 20 min), a następnie metrem linii M1 do stacji Pole Mokotowskie. Cała trasa to około 40 minut; z bagażem wygodniejsza jest taksówka.",
     "train": "Z Dworca Centralnego",
-    "trainDesc": "Wsiądź w tramwaj, metro lub autobus, a dotrzesz do wejścia do parku w 15 minut.",
+    "trainDesc": "Z Dworca Centralnego jedź metrem linii M1 w kierunku południowym – do stacji Pole Mokotowskie to kilka przystanków, łącznie około 10–15 minut.",
     "city": "Z głównych atrakcji",
-    "cityDesc": "Ze Starego Miasta lub Pałacu Kultury i Nauki jedź autobusem lub tramwajem. Park jest też dostępny pieszo lub rowerem miejskim Veturilo.",
+    "cityDesc": "Ze Starego Miasta lub spod Pałacu Kultury i Nauki jedź metrem M1 albo tramwajem wzdłuż al. Niepodległości. Teren jest płaski, więc sprawdzą się też spacer i rower miejski.",
     "public": "Transport publiczny w okolicy",
-    "publicDesc": "Park jest otoczony przystankami autobusowymi i tramwajowymi oraz stacją metra Pole Mokotowskie. Zalecany jest bilet dobowy ZTM.",
+    "publicDesc": "Stacja metra M1 Pole Mokotowskie znajduje się tuż przy parku, a wzdłuż al. Niepodległości są przystanki tramwajowe i autobusowe. Aktualne numery linii i rozkłady: wtp.waw.pl. Bilet dobowy ZTM obejmuje metro, tramwaje i autobusy.",
     "tips": "Wskazówki",
-    "tipsDesc": "Liczba miejsc parkingowych wokół parku jest ograniczona, preferowany jest transport publiczny. Okolica jest bezpieczna."
+    "tipsDesc": "Miejsc parkingowych wokół parku jest niewiele i w dni robocze są płatne, dlatego wygodniejszy jest transport publiczny. Okolica jest ruchliwa i bezpieczna."
   },
   "route": {
+    "supplementsTitle": "Warto wiedzieć",
     "title": "Trasa zwiedzania",
     "overview": "Zaleca się wejście wczesnym rankiem lub wieczorem od głównego wejścia. Spaceruj powoli alejami wysadzanymi drzewami, mijaj pas krajobrazowy nad jeziorem i ciesz się wodą i zielenią. Przejdź przez centralny wielki trawnik, zamelduj się przy minimalistycznych pomnikach i placach rekreacyjnych, a na koniec usiądź i odpocznij na skraju trawnika.",
     "steps": [
@@ -217,7 +237,10 @@
     ],
     "viewAll": "Zobacz więcej zdjęć w Google Maps",
     "viewMore": "Pokaż więcej zdjęć",
-    "viewLess": "Pokaż mniej zdjęć"
+    "viewLess": "Pokaż mniej zdjęć",
+    "ariaPrev": "Poprzednie zdjęcie",
+    "ariaNext": "Następne zdjęcie",
+    "ariaClose": "Zamknij podgląd"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -290,13 +313,236 @@
     },
     "disclaimer": "Ta strona jest niezależnym projektem informacji turystycznej osób trzecich. Nie jesteśmy powiązani z władzami lokalnymi ani żadnymi innymi oficjalnymi instytucjami.",
     "legal": "Kwestie prawne i prywatność",
-    "official": "Related Resources & Information",
+    "official": "Powiązane źródła i informacje",
     "privacyLink": "Polityka prywatności",
     "termsLink": "Warunki korzystania",
-    "cookiesLink": "Ustawienia plików cookie"
+    "cookiesLink": "Ustawienia plików cookie",
+    "internal": "Przewodnik",
+    "internalGuide": "Pole Mokotowskie Warszawa – przewodnik po parku",
+    "internalMap": "Mapa parku Pole Mokotowskie",
+    "internalVisit": "Odwiedź Pole Mokotowskie w Warszawie",
+    "internalTransport": "Godziny otwarcia i dojazd na Pole Mokotowskie",
+    "photoCredit": "Wszystkie zdjęcia na tej stronie pozostają własnością ich autorów. Wykorzystujemy je wyłącznie w celach ilustracyjnych; w sprawie podpisu lub usunięcia prosimy o kontakt."
+  },
+  "breadcrumb": {
+    "home": "Start",
+    "country": "Polska",
+    "region": "Województwo mazowieckie",
+    "city": "Warszawa",
+    "label": "Ścieżka nawigacji"
+  },
+  "map": {
+    "title": "Mapa i lokalizacja Pola Mokotowskiego",
+    "subtitle": "al. Niepodległości, 00-650 Warszawa · Plus Code 6273+39 · stacja metra M1 Pole Mokotowskie",
+    "openMaps": "Otwórz Pole Mokotowskie w Google Maps",
+    "addressLabel": "Adres",
+    "plusCodeLabel": "Plus Code",
+    "authorityText": "Aktualne informacje o parku: portal zieleni m.st. Warszawy"
+  },
+  "highlights": {
+    "title": "Co zobaczyć i robić na Polu Mokotowskim",
+    "subtitle": "Sześć powodów, dla których trawniki, staw i alejki dawnego lotniska tętnią życiem od rana do zachodu słońca.",
+    "items": [
+      {
+        "name": "Staw i oczka wodne",
+        "desc": "Dawne betonowe baseny zastąpiono naturalnym zbiornikiem ekologicznym z szuwarami – to dziś ulubione miejsce spacerów i obserwacji ptaków."
+      },
+      {
+        "name": "Wielkie trawniki",
+        "desc": "Bezkresna, płaska trawa w środku miasta: pikniki, latawce, opalanie i spontaniczna piłka nożna."
+      },
+      {
+        "name": "Ścieżki rowerowe i trasy biegowe",
+        "desc": "Równe, zadbane alejki przecinają park i łączą się z warszawską siecią tras rowerowych – to najpopularniejsza pętla biegowa w dzielnicy."
+      },
+      {
+        "name": "Biblioteka Narodowa",
+        "desc": "Gmach Biblioteki Narodowej sąsiaduje z parkiem od północy, więc spacer po trawnikach łatwo połączyć z wizytą w bibliotece."
+      },
+      {
+        "name": "Rzeźby i miejsca pamięci",
+        "desc": "Plenerowe rzeźby, instalacje pamięci i obiekty sztuki rozsiane są wzdłuż alejek, dając rozległym trawnikom spokojne punkty centralne."
+      },
+      {
+        "name": "Przyroda i ptaki",
+        "desc": "Stawy, szuwary i stare drzewa czynią park jednym z najbardziej zielonych schronień w centrum Warszawy; regularnie notuje się tu ssaki i ptaki."
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Udogodnienia w parku",
+    "subtitle": "Podajemy tylko rodzaje udogodnień – przewodnik nie promuje żadnych firm.",
+    "items": [
+      {
+        "type": "Toalety publiczne",
+        "desc": "Toalety obsługują najbardziej uczęszczane trawniki i place zabaw; obiekty sezonowe zimą mogą być zamknięte.",
+        "hint": "Bezpłatne, sezonowe"
+      },
+      {
+        "type": "Place zabaw",
+        "desc": "Ogrodzone place zabaw z huśtawkami i zjeżdżalniami znajdują się po stronie osiedli.",
+        "hint": "Dla rodzin"
+      },
+      {
+        "type": "Wybieg dla psów",
+        "desc": "Psy są mile widziane na alejkach i trawnikach, a ogrodzony wybieg pozwala je spuścić ze smyczy.",
+        "hint": "Poza wybiegiem na smyczy"
+      },
+      {
+        "type": "Sport i fitness",
+        "desc": "Plenerowe urządzenia do ćwiczeń, boiska do piłki nożnej i szerokie płaskie trawniki do treningu i gier zespołowych.",
+        "hint": "Bezpłatne"
+      },
+      {
+        "type": "Rower",
+        "desc": "Utwardzone drogi rowerowe biegną przez park i wokół niego, przy głównych wejściach są stojaki.",
+        "hint": "Sieć rowerowa miasta"
+      },
+      {
+        "type": "Piknik i ławki",
+        "desc": "Setki ławek oraz otwarte trawniki, na których pikniki, koce i gry to codzienność.",
+        "hint": "Własny koc"
+      },
+      {
+        "type": "Segregacja odpadów",
+        "desc": "Wzdłuż głównych alei stoją pojemniki na szkło, plastik i papier.",
+        "hint": "Nie zostawiaj śladów"
+      },
+      {
+        "type": "Parking",
+        "desc": "Miejsc parkingowych wzdłuż okolicznych alei jest niewiele i w dni robocze są płatne.",
+        "hint": "Wybierz transport publiczny"
+      },
+      {
+        "type": "Gastronomia i kawiarnie",
+        "desc": "W pobliżu parku zjesz bez przepłacania: restauracje, bistra, kawiarnie i sezonowe kioski znajdziesz przy głównych wejściach oraz w okolicznych dzielnicach Ochota i Mokotów. Celowo podajemy typy usług, a nie konkretne firmy.",
+        "hint": "Typy usług"
+      },
+      {
+        "type": "Noclegi",
+        "desc": "Planujesz nocleg? W okolicznych dzielnicach (Śródmieście, Ochota, Mokotów) znajdziesz hotele, hostele, pensjonaty i apartamenty w zasięgu spaceru od stacji metra M1. Porównaj oferty na oficjalnych portalach rezerwacyjnych.",
+        "hint": "Typy obiektów"
+      },
+      {
+        "type": "Sklepy i supermarkety",
+        "desc": "Po napoje, przekąski i prowiant na piknik wybierz supermarkety i sklepy spożywcze przy al. Niepodległości i pobliskich ulicach. Butelkę wody uzupełnisz przy sezonowych wodopojach na terenie parku.",
+        "hint": "Typy sklepów"
+      },
+      {
+        "type": "Paliwo i ładowanie EV",
+        "desc": "Dla kierowców: stacje benzynowe znajdują się tuż przy parku, wzdłuż al. Niepodległości i ul. Żwirki i Wigury. Punkty ładowania aut elektrycznych są na pobliskich parkingach — dostępność sprawdzisz na oficjalnych mapach ładowania.",
+        "hint": "Typy punktów"
+      }
+    ]
+  },
+  "nearby": {
+    "title": "Zabytki wokół Pola Mokotowskiego",
+    "subtitle": "Muzealno-ogrodowe centrum Warszawy zaczyna się tuż przy parku. Podane odległości to orientacyjne szacunki piesze – przed wyjściem sprawdź aktualną trasę w aplikacji mapowej.",
+    "items": [
+      {
+        "name": "Biblioteka Narodowa",
+        "kind": "Biblioteka narodowa",
+        "dist": "Tuż obok parku",
+        "desc": "Biblioteka Narodowa leży tuż przy parku. Ciche czytelnie i wystawy stałe łatwo połączyć ze spacerem po zieleńcu."
+      },
+      {
+        "name": "Łazienki Królewskie",
+        "kind": "Ogrody królewskie",
+        "dist": "ok. 2 km na wschód",
+        "desc": "Najsłynniejsze warszawskie ogrody królewskie z Pałacem na Wyspie i pomnikiem Chopina; w letnie niedziele przy pomniku odbywają się bezpłatne koncerty fortepianowe."
+      },
+      {
+        "name": "Zamek Ujazdowski",
+        "kind": "Zamek · sztuka współczesna",
+        "dist": "ok. 2,5 km na wschód",
+        "desc": "Odbudowany po wojnie dawny zamek królewski, obecnie siedziba Centrum Sztuki Współczesnej (CSW). Z jego wieży roztacza się widok na Łazienki i miasto."
+      },
+      {
+        "name": "Muzeum Powstania Warszawskiego",
+        "kind": "Muzeum historyczne",
+        "dist": "ok. 3 km na północny zachód",
+        "desc": "Wielkie interaktywne muzeum poświęcone powstaniu warszawskiemu z 1944 r. Dobrze uzupełnia wojenne wątki parku; najlepiej dojechać komunikacją miejską."
+      },
+      {
+        "name": "Pałac Kultury i Nauki",
+        "kind": "Symbol Warszawy",
+        "dist": "ok. 2,5 km na północ · metro M1",
+        "desc": "Najbardziej rozpoznawalny budynek Warszawy. Kilka przystanków metrem M1 na północ i taras widokowy na 30. piętrze – z góry widać także ten park."
+      }
+    ]
+  },
+  "besttime": {
+    "title": "Kiedy najlepiej odwiedzić park",
+    "subtitle": "Warszawa leży w klimacie umiarkowanym – lata bywają ciepłe, zimy chłodne. Park jest otwarty całą dobę przez cały rok, a każda pora roku ma inny klimat.",
+    "items": [
+      {
+        "name": "Wiosna",
+        "period": "marzec – maj",
+        "desc": "Trawniki i brzegi jeziora zielenieją, wracają ptaki. Pogoda bywa zmienna – warto mieć lżejszą kurtkę; w weekendy i święta jest więcej ludzi."
+      },
+      {
+        "name": "Lato",
+        "period": "czerwiec – sierpień",
+        "desc": "Długie dni i ciepłe wieczory: pikniki, spacery nad wodą i zachody słońca przyciągają najwięcej osób. Zabierz wodę i krem z filtrem."
+      },
+      {
+        "name": "Jesień",
+        "period": "wrzesień – listopad",
+        "desc": "Aleje i odbicia w jeziorze złocą się – to najbardziej fotogeniczna pora roku. Deszcz zdarza się częściej, a opadłe liście bywają śliskie."
+      },
+      {
+        "name": "Zima",
+        "period": "grudzień – luty",
+        "desc": "Śnieg potrafi zamienić otwarte trawniki w cichy, biały krajobraz. Dni są krótkie i mroźne, ale alejki pozostają otwarte i oświetlone – ubierz się ciepło."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "items": [
+      {
+        "q": "Czy wstęp na Pole Mokotowskie jest bezpłatny?",
+        "a": "Tak. To publiczny miejski teren zielony bez opłat za wstęp – trawniki, alejki, staw i place są dostępne bezpłatnie dla wszystkich."
+      },
+      {
+        "q": "Jakie są godziny otwarcia Pola Mokotowskiego?",
+        "a": "Park nie ma bram ani godziny zamknięcia: jest dostępny 24 godziny na dobę, siedem dni w tygodniu, przez cały rok. Niektóre sezonowe punkty usługowe działają krócej."
+      },
+      {
+        "q": "Jak dojechać na Pole Mokotowskie metrem?",
+        "a": "Linią metra M1 do stacji Pole Mokotowskie, której wyjścia prowadzą wprost na stronę parku przy al. Niepodległości. Wzdłuż alei są też przystanki tramwajowe i autobusowe – aktualne numery linii sprawdzisz na wtp.waw.pl."
+      },
+      {
+        "q": "Gdzie dokładnie znajduje się Pole Mokotowskie?",
+        "a": "W południowej części centrum Warszawy, wzdłuż al. Niepodległości (kod pocztowy 00-650), między Mokotowem a Ochotą, kilka minut od ścisłego centrum. Plus Code: 6273+39 Warszawa."
+      },
+      {
+        "q": "Czy w stawie można pływać?",
+        "a": "Nie. Zbiornik to naturalny obiekt ekologiczny stworzony dla krajobrazu i bioróżnorodności, a nie kąpielisko – podziwiaj go z brzegu i kładki."
+      },
+      {
+        "q": "Czy park nadaje się do biegania i jazdy na rowerze?",
+        "a": "Tak. Równe, zadbane alejki okrążają trawniki i staw i łączą się z warszawską siecią rowerową. To jedno z najpopularniejszych miejsc do biegania w mieście."
+      },
+      {
+        "q": "Czy można przyjść z psem?",
+        "a": "Psy są mile widziane w całym parku, a na ogrodzonym wybiegu można je spuścić ze smyczy. Poza wybiegiem prowadź psa na smyczy i sprzątaj po nim."
+      },
+      {
+        "q": "Kiedy najlepiej odwiedzić park?",
+        "a": "Wczesny ranek i godzina przed zachodem słońca dają miękkie światło, chłodniejsze powietrze i mniej ludzi. Najspokojniej jest w dni robocze rano, najtłoczniej w weekendowe popołudnia."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Źródła i informacje redakcyjne",
+    "subtitle": "Opracowano na podstawie publicznych i oficjalnych źródeł. To niezależny, niekomercyjny przewodnik, nie oficjalna strona miasta.",
+    "lastUpdated": "Ostatnia aktualizacja treści",
+    "photoCredit": "Wszystkie zdjęcia na tej stronie pozostają własnością ich autorów. Wykorzystujemy je wyłącznie w celach ilustracyjnych; w sprawie podpisu lub usunięcia prosimy o kontakt."
   },
   "privacy": {
     "title": "Polityka Prywatności",
+    "description": "Jak ten niezależny przewodnik po Pole Mokotowskie zbiera i chroni dane odwiedzających — pliki cookie, analityka i Twoje prawa RODO.",
     "lastUpdated": "Ostatnia aktualizacja: Maj 2026",
     "sections": [
       {
@@ -309,7 +555,7 @@
       },
       {
         "heading": "Usługi stron trzecich",
-        "content": "Nasza strona może korzystać z usług stron trzecich, takich jak Google Maps (do osadzonych map i danych o lokalizacji), Google Analytics (do analizy ruchu) i Unsplash (do obrazów). Usługi te mają własne polityki prywatności."
+        "content": "Nasza strona może korzystać z usług stron trzecich, takich jak Google Maps (do osadzonych map i danych o lokalizacji) oraz Google Analytics (do analizy ruchu). Wszystkie zdjęcia i inne materiały są hostowane bezpośrednio na tej stronie. Usługi te mają własne polityki prywatności."
       },
       {
         "heading": "Twoje prawa",
@@ -319,6 +565,7 @@
   },
   "terms": {
     "title": "Warunki korzystania z usług",
+    "description": "Warunki korzystania z niezależnego przewodnika po Pole Mokotowskie — wykorzystanie treści, dokładność informacji i ograniczenie odpowiedzialności.",
     "lastUpdated": "Ostatnia aktualizacja: Maj 2026",
     "sections": [
       {
@@ -335,7 +582,7 @@
       },
       {
         "heading": "Własność intelektualna",
-        "content": "Projekt i oryginalna treść tej witryny są chronione prawem autorskim. Obrazy pochodzą z Unsplash i są używane za zgodą. Korzystanie z danych Google Maps jest zgodne z warunkami korzystania z usług Google."
+        "content": "Projekt i oryginalna treść tej witryny są chronione prawem autorskim. Wszystkie zdjęcia pozostają własnością ich autorów i są wykorzystywane wyłącznie w celach redakcyjnych. Korzystanie z danych Google Maps jest zgodne z warunkami korzystania z usług Google."
       },
       {
         "heading": "Ograniczenie odpowiedzialności",
@@ -369,6 +616,91 @@
     "saved": "Preferencje zapisane!",
     "rejectAll": "Odrzuć wszystkie",
     "active": "Aktywne",
-    "inactive": "Nieaktywne"
+    "inactive": "Nieaktywne",
+    "toggle": "Przełącz"
+  },
+  "stories": {
+    "title": "Historia i ciekawostki",
+    "subtitle": "Zweryfikowane notatki z pola: lotnictwo, uroczystości, wojna i przyroda.",
+    "items": [
+      {
+        "kind": "Lotnictwo",
+        "title": "Kolebka polskiego lotnictwa",
+        "text": "W 1909 r. odbyły się tu pierwsze w Polsce pokazy lotnicze, a rok później powstało lotnisko mokotowskie z warsztatami i hangarami Awiata przy północnej krawędzi. Do 1934 r. pełniło rolę warszawskiego lotniska pasażerskiego."
+      },
+      {
+        "kind": "Uroczystości",
+        "title": "Ostatnia defilada Piłsudskiego",
+        "text": "11 listopada 1934 r. marszałek Józef Piłsudski przyjmował tu ostatnią defiladę; pół roku później, w maju 1935 r., na tym samym polu odbyły się uroczystości pogrzebowe przed złożeniem go na Wawelu."
+      },
+      {
+        "kind": "Czas wojny",
+        "title": "Godzina «W» na polu",
+        "text": "W czasie okupacji na polu stały niemieckie stanowiska artylerii przeciwlotniczej. 1 sierpnia 1944 r. o godzinie «W» zaatakowały je oddziały AK z obwodu Mokotów — atak nie powiódł się i przyniósł ciężkie straty."
+      },
+      {
+        "kind": "Pamięć miasta",
+        "title": "Domki fińskie i Ryszard Kapuściński",
+        "text": "Po wojnie stało tu ok. 200 fińskich domków — daru ZSRR. Reporter Ryszard Kapuściński mieszkał w jednym z nich w latach 1946–1955; jego imię nosi otwarta w 2010 r. ścieżka edukacyjna w parku."
+      },
+      {
+        "kind": "Przyroda",
+        "title": "Krąg głazów narzutowych",
+        "text": "W 1999 r., na Dzień Ziemi, przy południowej krawędzi parku ułożono krąg megalityczny z 13 głazów narzutowych; rok później uznano go za pomnik przyrody."
+      },
+      {
+        "kind": "Ekologia",
+        "title": "Dziczenie miejskiego trawnika",
+        "text": "W latach 2021–2023 park zmodernizowano: mniej betonu, nowy układ wodny z roślinnością trzcinową, drewniane pomosty, ławki i nowe drzewa. Od 2018 r. w soboty spotyka tu społeczność parkrun."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Pogoda w parku",
+    "subtitle": "Aktualne warunki i prognoza na najbliższe dni dla rejonu Pole Mokotowskie. Dane: Open-Meteo.",
+    "now": "Teraz",
+    "feelsLike": "Odczuwalna",
+    "humidity": "Wilgotność",
+    "wind": "Wiatr",
+    "precipitation": "Opady",
+    "today": "Dziś",
+    "forecastTitle": "7-dniowa prognoza",
+    "source": "Dane pogodowe: Open-Meteo (odświeżane do co 30 minut).",
+    "fallback": "Dane pogodowe są chwilowo niedostępne. Przed wizytą sprawdź prognozę w niezależnym serwisie.",
+    "codes": {
+      "0": "Bezchmurnie",
+      "1": "Niewielkie zachmurzenie",
+      "2": "Częściowe zachmurzenie",
+      "3": "Zachmurzenie całkowite",
+      "45": "Mgła",
+      "48": "Zamrożona mgła",
+      "51": "Słaba mżawka",
+      "53": "Mżawka",
+      "55": "Gęsta mżawka",
+      "56": "Słaba marznąca mżawka",
+      "57": "Marznąca mżawka",
+      "61": "Słaby deszcz",
+      "63": "Deszcz",
+      "65": "Silny deszcz",
+      "66": "Słaby marznący deszcz",
+      "67": "Marznący deszcz",
+      "71": "Słabe opady śniegu",
+      "73": "Opady śniegu",
+      "75": "Silne opady śniegu",
+      "77": "Kasza śnieżna",
+      "80": "Słabe przelotne opady",
+      "81": "Przelotne opady",
+      "82": "Silne przelotne opady",
+      "85": "Słabe przelotne opady śniegu",
+      "86": "Przelotne opady śniegu",
+      "95": "Burza",
+      "96": "Burza z lekkim gradem",
+      "99": "Burza z silnym gradem"
+    }
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "description": "Przepraszamy, strona, której szukasz, nie istnieje lub została przeniesiona. Wróć do przewodnika, aby kontynuować zwiedzanie parku.",
+    "homeLink": "Wróć do przewodnika"
   }
 }

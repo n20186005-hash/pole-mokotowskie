@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
+import { galleryFiles, siteConfig } from '@/config';
 
 export default function Gallery() {
   const t = useTranslations('gallery');
@@ -9,8 +10,10 @@ export default function Gallery() {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
-  const photos = Array.from({ length: 18 }, (_, i) => ({
-    src: `/gallery/images (${i + 1}).jpg`,
+  const photos = galleryFiles.map((file, i) => ({
+    src: file.src,
+    width: file.width,
+    height: file.height,
     alt: t(`captions.${i}` as any)
   }));
 
@@ -54,6 +57,8 @@ export default function Gallery() {
                   <img
                     src={photo.src}
                     alt={photo.alt}
+                    width={photo.width}
+                    height={photo.height}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
                     loading="lazy"
@@ -77,7 +82,7 @@ export default function Gallery() {
               </button>
               
               <a
-                href="https://maps.app.goo.gl/NDmzop8RQaVohjrT7"
+                href={siteConfig.mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"
@@ -98,7 +103,7 @@ export default function Gallery() {
           <button
             onClick={closeLightbox}
             className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Close lightbox"
+            aria-label={t('ariaClose')}
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
               <line x1="18" y1="6" x2="6" y2="18" />
@@ -109,7 +114,7 @@ export default function Gallery() {
           <button
             onClick={(e) => { e.stopPropagation(); goToPrevious(); }}
             className="absolute left-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Previous photo"
+            aria-label={t('ariaPrev')}
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
               <polyline points="15 18 9 12 15 6" />
@@ -119,6 +124,8 @@ export default function Gallery() {
           <img
             src={photos[currentIndex].src}
             alt={photos[currentIndex].alt}
+            width={photos[currentIndex].width}
+            height={photos[currentIndex].height}
             className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
             onClick={(e) => e.stopPropagation()}
           />
@@ -126,7 +133,7 @@ export default function Gallery() {
           <button
             onClick={(e) => { e.stopPropagation(); goToNext(); }}
             className="absolute right-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Next photo"
+            aria-label={t('ariaNext')}
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
               <polyline points="9 18 15 12 9 6" />

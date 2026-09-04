@@ -1,12 +1,15 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { siteConfig, localeTags, type AppLocale } from '@/config';
 
 export default function BasicInfo() {
   const t = useTranslations('basicInfo');
+  const locale = useLocale();
+  const numberLocale = localeTags[(locale as AppLocale) in localeTags ? (locale as AppLocale) : 'pl'];
 
   return (
-    <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+    <section id="facts" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
       <div className="max-w-5xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
@@ -21,9 +24,14 @@ export default function BasicInfo() {
           <InfoCard title={t('type')} value={t('typeValue')} />
           <InfoCard title={t('country')} value={t('countryValue')} />
           <InfoCard title={t('city')} value={t('cityValue')} />
-          <InfoCard title={t('googleRating')} value="4.7/5 (26,663)" />
+          <InfoCard
+            title={t('googleRating')}
+            value={`${siteConfig.rating}/5 (${siteConfig.reviewCount.toLocaleString(numberLocale)})`}
+          />
+          <InfoCard title={t('admission')} value={t('admissionValue')} />
+          <InfoCard title={t('openingHours')} value={t('openingHoursValue')} />
           <InfoCard title={t('plusCode')} value={t('plusCodeValue')} />
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 lg:col-span-3">
             <InfoCard title={t('address')} value={t('addressValue')} />
           </div>
         </div>

@@ -34,12 +34,20 @@ export default function InfoSection() {
                     {section.title}
                   </h3>
                 </div>
-                <p
-                  className="text-lg leading-relaxed ml-14"
-                  style={{ color: 'var(--text-secondary)' }}
-                >
-                  {section.content}
-                </p>
+                <div className="ml-14 space-y-4">
+                  {section.content
+                    .split('\n')
+                    .filter(Boolean)
+                    .map((paragraph, i) => (
+                      <p
+                        key={i}
+                        className="text-base sm:text-lg leading-relaxed"
+                        style={{ color: 'var(--text-secondary)' }}
+                      >
+                        {paragraph}
+                      </p>
+                    ))}
+                </div>
               </div>
             </div>
           ))}

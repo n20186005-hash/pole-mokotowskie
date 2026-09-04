@@ -10,6 +10,7 @@ function CookieToggle({
   onToggle,
   locked,
   badge,
+  ariaLabel,
 }: {
   label: string;
   description: string;
@@ -17,6 +18,7 @@ function CookieToggle({
   onToggle: () => void;
   locked?: boolean;
   badge?: string;
+  ariaLabel: string;
 }) {
   return (
     <div
@@ -42,7 +44,7 @@ function CookieToggle({
       <button
         onClick={locked ? undefined : onToggle}
         className={`cookie-toggle flex-shrink-0 ${enabled ? 'active' : ''} ${locked ? 'opacity-60 cursor-not-allowed' : ''}`}
-        aria-label={`Toggle ${label}`}
+        aria-label={ariaLabel}
         disabled={locked}
       />
     </div>
@@ -71,6 +73,8 @@ export default function CookieSettingsClient() {
 
   function handleSave() {
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, preferences, marketing }));
+    // Let the consent-gated GA4 loader in the layout react immediately.
+    window.dispatchEvent(new Event('consent-updated'));
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -80,6 +84,8 @@ export default function CookieSettingsClient() {
     setPreferences(false);
     setMarketing(false);
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics: false, preferences: false, marketing: false }));
+    // Let the consent-gated GA4 loader in the layout disable tracking immediately.
+    window.dispatchEvent(new Event('consent-updated'));
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -113,24 +119,28 @@ export default function CookieSettingsClient() {
             onToggle={() => {}}
             locked={true}
             badge={t('essential.badge')}
+            ariaLabel={`${t('toggle')} ${t('essential.title')}`}
           />
           <CookieToggle
             label={t('analytics.title')}
             description={t('analytics.description')}
             enabled={analytics}
             onToggle={() => setAnalytics(!analytics)}
+            ariaLabel={`${t('toggle')} ${t('analytics.title')}`}
           />
           <CookieToggle
             label={t('preferences.title')}
             description={t('preferences.description')}
             enabled={preferences}
             onToggle={() => setPreferences(!preferences)}
+            ariaLabel={`${t('toggle')} ${t('preferences.title')}`}
           />
           <CookieToggle
             label={t('marketing.title')}
             description={t('marketing.description')}
             enabled={marketing}
             onToggle={() => setMarketing(!marketing)}
+            ariaLabel={`${t('toggle')} ${t('marketing.title')}`}
           />
         </div>
 

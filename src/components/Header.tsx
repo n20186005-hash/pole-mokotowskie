@@ -1,12 +1,15 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState, useEffect } from 'react';
 
+const NAV = ['highlights', 'stories', 'transport', 'facilities', 'weather', 'faq', 'gallery', 'map'] as const;
+
 export default function Header() {
   const t = useTranslations('header');
+  const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -24,17 +27,22 @@ export default function Header() {
         backdropFilter: scrolled ? 'blur(12px)' : 'none',
       }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <a href="/" className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+        <a
+          href={`/${locale}`}
+          className="font-display text-base sm:text-lg font-semibold tracking-tight whitespace-nowrap"
+          style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}
+          title={t('guideTitle')}
+        >
           Pole Mokotowskie
         </a>
 
-        <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+        <nav className="hidden lg:flex items-center gap-3" aria-label={t('navLabel')}>
+          {NAV.map((section) => (
             <a
               key={section}
-              href={`/#${section}`}
-              className="text-sm font-medium transition-colors"
+              href={`/${locale}/#${section}`}
+              className="text-sm font-medium transition-colors whitespace-nowrap"
               style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
               {t(section)}

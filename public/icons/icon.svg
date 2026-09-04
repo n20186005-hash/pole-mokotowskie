@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Pole Mokotowskie">
+  <rect width="512" height="512" rx="96" fill="#3a7a8d"/>
+  <circle cx="256" cy="150" r="52" fill="#f0b429"/>
+  <path d="M96 392c0-88 72-160 160-160s160 72 160 160z" fill="#7fbf7f"/>
+  <path d="M40 424h432v24H40z" fill="#2c5f6e"/>
+  <path d="M150 400c34-26 78-40 122-40-30 18-56 42-74 70z" fill="#4f9d6a"/>
+</svg>

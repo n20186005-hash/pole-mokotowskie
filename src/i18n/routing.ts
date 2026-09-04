@@ -1,16 +1,18 @@
 import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
-  locales: ['zh', 'en', 'pl', 'ru', 'de'],
-  defaultLocale: 'zh',
+  locales: ['pl', 'en', 'zh', 'ru', 'de'],
+  defaultLocale: 'pl',
+  // Always land on the default locale (pl); visitors switch manually.
+  localeDetection: false,
   localePrefix: {
     mode: 'always',
   },
   pathnames: {
     '/': '/',
-    '/privacy-policy': '/privacy-policy',
-    '/terms-of-service': '/terms-of-service',
-    '/cookie-settings': '/cookie-settings',
+    '/privacy': '/privacy',
+    '/terms': '/terms',
+    '/cookies': '/cookies',
   },
 });
 

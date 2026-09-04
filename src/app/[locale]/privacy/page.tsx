@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { siteConfig, locales, localeTags } from '@/config';
 
 export async function generateMetadata({
   params,
@@ -8,25 +9,21 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://mokotowskiepark.com';
-  const zhUrl = `${baseUrl}/zh/privacy`;
-  const enUrl = `${baseUrl}/en/privacy`;
-  const plUrl = `${baseUrl}/pl/privacy`;
-  const ruUrl = `${baseUrl}/ru/privacy`;
-  const deUrl = `${baseUrl}/de/privacy`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : locale === 'pl' ? plUrl : locale === 'ru' ? ruUrl : deUrl;
-
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const path = '/privacy';
+  const selfUrl = `${siteConfig.baseUrl}/${locale}${path}`;
+  const languages: Record<string, string> = {
+    'x-default': `${siteConfig.baseUrl}/pl${path}`,
+  };
+  for (const loc of locales) {
+    languages[localeTags[loc]] = `${siteConfig.baseUrl}/${loc}${path}`;
+  }
   return {
+    title: `${messages.privacy.title} · ${siteConfig.fullName}`,
+    description: messages.privacy.description,
     alternates: {
       canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'pl': plUrl,
-        'ru': ruUrl,
-        'de': deUrl,
-        'x-default': enUrl,
-      },
+      languages,
     },
   };
 }

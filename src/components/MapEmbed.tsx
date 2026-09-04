@@ -1,46 +1,60 @@
 import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config';
 
 export default function MapEmbed() {
-  const t = useTranslations('hero'); // 使用 hero 中的 openMaps 替代
+  const t = useTranslations('map');
+  const authority = siteConfig.authorities[0];
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2
             className="font-display text-3xl sm:text-4xl font-semibold mb-4"
             style={{ color: 'var(--text-primary)' }}
           >
-            地图位置
+            {t('title')}
           </h2>
-          <div className="w-12 h-0.5 mx-auto mb-10" style={{ background: 'var(--accent)' }} />
+          <div className="w-12 h-0.5 mx-auto mb-6" style={{ background: 'var(--accent)' }} />
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+            {t('subtitle')}
+          </p>
         </div>
 
-        {/* Map */}
         <div
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.5!2d21.0!3d52.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDEyJzAwLjAiTiAyMcKwMDAnMDAuMCJF!5e0!3m2!1sen!2spl!4v1600000000000!5m2!1sen!2spl"
+            src={siteConfig.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Pole Mokotowskie"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={t('title')}
           />
         </div>
 
-        {/* Open in Google Maps */}
-        <div className="mt-6 flex justify-center">
+        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 text-sm">
+          <div className="rounded-xl p-4" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <dt style={{ color: 'var(--text-muted)' }}>{t('addressLabel')}</dt>
+            <dd style={{ color: 'var(--text-primary)' }}>
+              {siteConfig.streetAddress}, {siteConfig.cityLocal}, {siteConfig.country}
+            </dd>
+          </div>
+          <div className="rounded-xl p-4" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <dt style={{ color: 'var(--text-muted)' }}>{t('plusCodeLabel')}</dt>
+            <dd style={{ color: 'var(--text-primary)' }}>
+              {siteConfig.plusCode} {siteConfig.cityLocal}, {siteConfig.country}
+            </dd>
+          </div>
+        </dl>
+
+        <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://maps.app.goo.gl/NDmzop8RQaVohjrT7"
+            href={siteConfig.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -56,6 +70,16 @@ export default function MapEmbed() {
               <polyline points="15 3 21 3 21 9" />
               <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
+          </a>
+
+          <a
+            href={authority.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm hover:underline"
+            style={{ color: 'var(--accent)' }}
+          >
+            {t('authorityText')}
           </a>
         </div>
       </div>

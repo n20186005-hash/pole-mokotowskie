@@ -62,7 +62,7 @@ Rubjerg Knude
 
 
 
-游客评价需要补全到8条，评价不要胡编乱造要提取自https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+游客评价需要补全到8条，评价不要胡编乱造要提取自https://maps.app.goo.gl/dDi2bNjauNVknJP87
 
 在Google地图上查看位置
 
@@ -200,7 +200,7 @@ al. Niepodległości, Warszawa, 波兰
 
 
 
-https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+https://maps.app.goo.gl/dDi2bNjauNVknJP87
 
 
 
@@ -272,25 +272,25 @@ https://www.mazovia.pl/
 
 
 
-首屏谷歌地图位置跳转为 https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+首屏谷歌地图位置跳转为 https://maps.app.goo.gl/dDi2bNjauNVknJP87
 
 
 
 照片画廊
 
-在Google地图上查看位置跳转为 https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/dDi2bNjauNVknJP87
 
 
 
 游客评价
 
-在Google地图上查看位置跳转为 https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/dDi2bNjauNVknJP87
 
 
 
 地图位置
 
-在Google地图上查看位置跳转为 https://maps.app.goo.gl/NDmzop8RQaVohjrT7
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/dDi2bNjauNVknJP87
 
 
 

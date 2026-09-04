@@ -1,0 +1,8 @@
+   ▲ Next.js 15.5.14
+
+
+> Build error occurred
+Error: [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":500,"threshold":500,"scope":"turn","targets":["c:\\Users\\Administrator\\Documents\\GitHub\\mokotowskiepark\\.next\\static\\webpack\\72b56f6810455d8a.webpack.hot-update.json"],"targetCount":1}
+    at checkBulkDeleteGuard (C:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:273:19)
+    at tryTrash (C:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:602:5)
+    at Object.unlink (C:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\out\vendor\shim\node-safe-delete-shim.cjs:735:9)

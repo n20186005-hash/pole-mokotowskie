@@ -73,13 +73,3 @@ export default function TicketsSection() {
   );
 }
 
-function PriceRow({ label, value, isFree = false }: { label: string; value: string; isFree?: boolean }) {
-  return (
-    <div className="flex justify-between items-center">
-      <span style={{ color: 'var(--text-secondary)' }}>{label}</span>
-      <span className="font-semibold" style={{ color: isFree ? 'var(--accent)' : 'var(--text-primary)' }}>
-        {value}
-      </span>
-    </div>
-  );
-}

@@ -1,22 +1,32 @@
 {
   "meta": {
-    "title": "Pole Mokotowskie｜Warschaus größter städtischer Grünraum & lokales Freizeitparadies",
-    "description": "Kompletter Reiseführer zum Pole Mokotowskie in Warschau, Polen. Erfahren Sie alles über Öffnungszeiten, Transport, Tipps und atemberaubende Fotos. Warschaus zentraler großer Grünraum."
+    "title": "Pole Mokotowskie (Warschau) – Guide, Karte & Öffnungszeiten",
+    "description": "Kompletter Guide zum Pole Mokotowskie in Warschau: Karte, Öffnungszeiten, See, Radwege, Nationalbibliothek und Anreise mit der Metro M1. Freier Eintritt, rund um die Uhr geöffnet."
   },
   "header": {
-    "home": "Home",
-    "gallery": "Gallery",
-    "reviews": "Reviews",
-    "map": "Map",
-    "backToHome": "Back to Home"
+    "home": "Start",
+    "gallery": "Galerie",
+    "reviews": "Bewertungen",
+    "map": "Karte",
+    "backToHome": "Zurück zur Startseite",
+    "highlights": "Highlights",
+    "transport": "Anreise",
+    "facilities": "Einrichtungen",
+    "faq": "FAQ",
+    "stories": "Geschichten",
+    "weather": "Wetter",
+    "guideTitle": "Reiseführer zum Pole-Mokotowskie-Park",
+    "navLabel": "Seitenabschnitte"
   },
   "hero": {
-    "title": "Pole Mokotowskie",
-    "subtitle": "Warschaus riesige zentrale Grünfläche",
-    "rating": "4.7(26,663)",
-    "reviewCount": "26,663 Bewertungen",
+    "title": "Pole Mokotowskie (Warschau)",
+    "subtitle": "Warschaus größte zentrale Grünfläche – freier Eintritt, rund um die Uhr geöffnet, 4,7/5 aus über 26.800 Google-Bewertungen",
+    "rating": "4.7",
+    "reviewCount": "26,875 Bewertungen",
     "hours": "24 Stunden geöffnet",
-    "openMaps": "Standort ansehen"
+    "openMaps": "In Google Maps ansehen",
+    "imgAlt": "Weite Rasenflächen und der See im Park Pole Mokotowskie in Warschau",
+    "freeEntry": "Freier Eintritt"
   },
   "intro": {
     "title": "Entdecken Sie Pole Mokotowskie",
@@ -45,8 +55,8 @@
     "sections": [
       {
         "id": "history",
-        "title": "Ein Jahrhundert Geschichte",
-        "content": "Das Land von Pole Mokotowskie hat eine lange Geschichte. Ursprünglich ein leeres Ödland und eine grüne Pufferzone am Rande der Stadt, wurde es im Zuge der Stadterweiterung in die Gesamtplanung Warschaus einbezogen. Nach dem Zweiten Weltkrieg wurde Warschau massiv wiederaufgebaut, und die Stadt brauchte dringend große öffentliche Grünflächen, um das städtische Tempo zu drosseln. Diese Wildnis wurde offiziell in einen öffentlichen Stadtpark umgewandelt.\n\nIn den frühen Phasen des Baus lag das Hauptaugenmerk auf grundlegender Begrünung und einfachen Wegen. Nach mehreren leichten Modernisierungsrunden wurden Seen, Freizeiteinrichtungen, Sportplätze und Gedenklandschaften hinzugefügt.\n\nIm Laufe der Jahrhunderte hat sich dieses Land von einem Vorstadtödland zu einer ökologischen Barriere für die städtische Restaurierung der Nachkriegszeit entwickelt und ist nun ein städtisches Wohnzimmer. Es war Zeuge des Zerbrechens und der Wiedergeburt Warschaus und steht ruhig im Zentrum der Stadt."
+        "title": "Vom Flugfeld zum Stadtpark",
+        "content": "Die Geschichte des Geländes als öffentlicher Raum beginnt im frühen 19. Jahrhundert. 1818 wurde es für militärische Übungen bestimmt, ab 1831 diente es als Mokotów-Feld (Pole Wojenne Mokotowskie). Zivilistisches Leben folgte bald: 1841 fanden auf der kleinen Bahn die ersten Pferderennen Kongresspolens statt, 1887 eröffnete an der ul. Polna eine neue Rennbahn. Erst 1938, mit dem Bau der Rennbahn Służewiec, endete diese Ära.\nPole Mokotowskie ist die Wiege der polnischen Luftfahrt. 1909 fanden hier die ersten Flugschauen Polens statt; 1910 wurde das Flugfeld von Mokotów angelegt, mit den Awiata-Werkstätten und -Hallen am Nordrand. Nach deren Schließung 1912 nutzten die russische Armee, später deutsche Luftschiffe das Feld; nach der Unabhängigkeit war hier das 1. Fliegerregiment (1921–1933) stationiert. Bis 1934 diente es auch als Warschauer Flughafen für Passagierflüge.\nZwischen den Kriegen war das Feld ein Ort des Zeremoniells. Am 11. November 1934 nahm Marschall Józef Piłsudski hier seine letzte Parade ab; im Mai 1935 verabschiedete sich die Hauptstadt von ihm genau an diesem Ort. 1938 zerschnitt die verlängerte Niepodległości-Allee das Gelände in zwei Teile. Im Zweiten Weltkrieg standen Flugabwehrgeschütze auf dem Feld; am 1. August 1944 griffen sie Einheiten der Heimatarmee aus dem Bezirk Mokotów zur «W»-Stunde an — der Angriff wurde unter schweren Verlusten abgewiesen.\nNach dem Krieg standen an der Ecke Niepodległości-Allee / ul. Wawelska rund 200 finnische Holzhäuser — ein Geschenk der UdSSR; in einem wohnte von 1946 bis 1955 der spätere Reporter Ryszard Kapuściński. 1973 beschloss man, hier einen Park anzulegen; Stanisław Boleks Entwurf wurde in den 1970er/80er Jahren parallel zur Nationalbibliothek verwirklicht. 1988 wurde der Park offiziell nach Marschall Piłsudski benannt. 1999 kam der Findlingskreis, 2010 der Bildungspfad Kapuścińskis, 2021–2023 erfolgte die ökologische Modernisierung."
       },
       {
         "id": "architecture",
@@ -62,6 +72,11 @@
         "id": "experience",
         "title": "Kernelement",
         "content": "Betreten Sie den Park am frühen Morgen, spazieren Sie langsam die baumgesäumten Wege entlang, atmen Sie die frische Luft ein und spüren Sie den seltenen ruhigen Moment in der Stadt. Am Nachmittag breiten Sie eine Picknickdecke auf dem Rasen aus, plaudern Sie mit Freunden und beobachten Sie Kinder beim Spielen auf dem Gras. In der Dämmerung spazieren Sie an der Uferpromenade entlang und beobachten den Sonnenuntergang.\n\nEs besteht keine Notwendigkeit, etwas absichtlich zu arrangieren; die beste Erfahrung hier ist es, langsamer zu werden, lässig zu wandern und die Müdigkeit des Stadtlebens langsam in dieser grünen Wildnis verfliegen zu lassen."
+      },
+      {
+        "id": "nature",
+        "title": "Natur & Artenvielfalt",
+        "content": "Pole Mokotowskie umfasst rund 73 Hektar: etwa 71 % (ca. 48,6 ha) liegen im Bezirk Ochota, der östliche Streifen gehört zu Śródmieście, ein kleiner Teil zu Mokotów. Damit ist es eine der größten offenen Grünflächen im Zentrum von Warschau. Der Westteil wirkt lockerer und informeller, der Ostteil strenger komponiert mit Brunnen in der Mitte.\nBotanische Erhebungen (2016–2017) zählten 328 Arten von Gefäßpflanzen. Etwa 36 Vogelarten brüten hier, rund 30 weitere besuchen den Park; über 100 Nistkästen hängen in den Bäumen, und das stille „Dziki Zakątek\" bleibt der Natur überlassen. Unter den Säugetieren dominieren Nagetiere, doch auch Eichhörnchen, Igel, Füchse und am Abend die Große Abendsegler-Fledermaus sind zu sehen. Radfahrer sind häufige Gäste: Allein 2018 zählte der Radzähler 823.912 Durchfahrten."
       }
     ]
   },
@@ -80,7 +95,11 @@
     "address": "Adresse",
     "addressValue": "al. Niepodległości, Warszawa, Polen",
     "plusCode": "Plus Code",
-    "plusCodeValue": "6273+39 Warschau, Polen"
+    "plusCodeValue": "6273+39 Warschau, Polen",
+    "admission": "Eintritt",
+    "admissionValue": "Frei – kein Ticket nötig",
+    "openingHours": "Öffnungszeiten",
+    "openingHoursValue": "Rund um die Uhr, ganzjährig"
   },
   "hours": {
     "title": "Öffnungszeiten",
@@ -108,17 +127,18 @@
   "transport": {
     "title": "Transport",
     "airport": "Vom Chopin-Flughafen Warschau",
-    "airportDesc": "Nehmen Sie die SKM-Bahn oder Buslinien direkt ins Stadtzentrum, steigen Sie dann in eine Straßenbahn oder einen Bus um, um den Park in etwa 30 Minuten zu erreichen.",
+    "airportDesc": "Vom Chopin-Flughafen fahren Sie mit der SKM-Stadtbahn oder dem Flughafenbus ins Zentrum (ca. 20 Minuten) und dann mit der Metro-Linie M1 bis zur Station Pole Mokotowskie. Insgesamt etwa 40 Minuten; mit Gepäck ist ein Taxi bequemer.",
     "train": "Vom Warschauer Hauptbahnhof",
-    "trainDesc": "Nehmen Sie eine Straßenbahn, U-Bahn oder einen Bus, und Sie können den Parkeingang in 15 Minuten erreichen.",
+    "trainDesc": "Vom Hauptbahnhof Warszawa Centralna fahren Sie mit der Metro-Linie M1 Richtung Süden – bis Pole Mokotowskie sind es nur wenige Stationen, insgesamt etwa 10–15 Minuten.",
     "city": "Von den Hauptattraktionen",
-    "cityDesc": "Von der Altstadt oder dem Kulturpalast nehmen Sie Busse oder Straßenbahnen. Auch für Stadtradfahren geeignet.",
+    "cityDesc": "Aus der Altstadt oder vom Kulturpalast fahren Sie mit der Metro M1 oder der Straßenbahn entlang der al. Niepodległości nach Süden. Das Gelände ist flach, auch Spazierengehen und Stadtfahrrad funktionieren gut.",
     "public": "Öffentliche Verkehrsmittel",
-    "publicDesc": "Der Park ist von Bus- und Straßenbahnhaltestellen umgeben, U-Bahn-Station Pole Mokotowskie. Ein Tagesticket wird empfohlen.",
+    "publicDesc": "Die Metrostation M1 Pole Mokotowskie liegt direkt am Park, entlang der al. Niepodległości gibt es Straßenbahn- und Bushaltestellen. Aktuelle Liniennummern und Fahrpläne: wtp.waw.pl. Ein ZTM-Tagesticket gilt für Metro, Straßenbahn und Bus.",
     "tips": "Reisetipps",
-    "tipsDesc": "Das Parken rund um den Park ist begrenzt, öffentliche Verkehrsmittel werden bevorzugt. Die Gegend ist sicher."
+    "tipsDesc": "Parkplätze rund um den Park sind knapp und werktags meist kostenpflichtig, daher ist der öffentliche Nahverkehr die entspanntere Wahl. Die Gegend ist belebt und sicher."
   },
   "route": {
+    "supplementsTitle": "Hinweise für Besucher",
     "title": "Rundgang",
     "overview": "Es wird empfohlen, am frühen Morgen oder Abend durch den Haupteingang den Park zu betreten. Gehen Sie langsam die baumgesäumten Alleen entlang, passieren Sie den Landschaftsgürtel am See. Überqueren Sie den zentralen großen Rasen, checken Sie bei den minimalistischen Denkmälern ein und sitzen Sie schließlich am Rand des Rasens.",
     "steps": [
@@ -217,7 +237,10 @@
     ],
     "viewAll": "Weitere Fotos auf Google Maps ansehen",
     "viewMore": "Mehr Fotos anzeigen",
-    "viewLess": "Weniger Fotos anzeigen"
+    "viewLess": "Weniger Fotos anzeigen",
+    "ariaPrev": "Vorheriges Foto",
+    "ariaNext": "Nächstes Foto",
+    "ariaClose": "Vorschau schließen"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -290,13 +313,236 @@
     },
     "disclaimer": "Diese Website ist ein unabhängiges Touristeninformationsprojekt von Drittanbietern. Wir sind nicht mit der lokalen Regierung oder anderen offiziellen Institutionen verbunden.",
     "legal": "Rechtliches & Datenschutz",
-    "official": "Related Resources & Information",
+    "official": "Weiterführende Ressourcen & Informationen",
     "privacyLink": "Datenschutzrichtlinie",
     "termsLink": "Nutzungsbedingungen",
-    "cookiesLink": "Cookie-Einstellungen"
+    "cookiesLink": "Cookie-Einstellungen",
+    "internal": "Park-Guide",
+    "internalGuide": "Pole Mokotowskie Warschau – Guide zum Park",
+    "internalMap": "Karte des Parks Pole Mokotowskie",
+    "internalVisit": "Pole Mokotowskie in Warschau besuchen",
+    "internalTransport": "Öffnungszeiten & Anreise zum Pole Mokotowskie",
+    "photoCredit": "Alle Fotos auf dieser Website bleiben Eigentum ihrer Urheber. Sie dienen ausschließlich der redaktionellen Illustration; bei Fragen zur Nennung oder Entfernung kontaktieren Sie uns bitte."
+  },
+  "breadcrumb": {
+    "home": "Start",
+    "country": "Polen",
+    "region": "Woiwodschaft Masowien",
+    "city": "Warschau",
+    "label": "Brotkrumen-Navigation"
+  },
+  "map": {
+    "title": "Karte und Lage des Pole Mokotowskie",
+    "subtitle": "al. Niepodległości, 00-650 Warschau · Plus Code 6273+39 · Metrostation M1 Pole Mokotowskie",
+    "openMaps": "Pole Mokotowskie in Google Maps öffnen",
+    "addressLabel": "Adresse",
+    "plusCodeLabel": "Plus Code",
+    "authorityText": "Aktuelle Informationen zum Park: Grünflächenportal der Stadt Warschau"
+  },
+  "highlights": {
+    "title": "Was man am Pole Mokotowskie sehen und tun kann",
+    "subtitle": "Sechs Gründe, warum die Rasenflächen, der See und die Wege des einstigen Flugfelds vom Morgen bis zum Sonnenuntergang belebt sind.",
+    "items": [
+      {
+        "name": "See und Wasserflächen",
+        "desc": "Die alten Betonbecken wurden durch ein natürliches ökologisches Gewässer mit Schilfzonen ersetzt – heute der beliebteste Ort im Park für ruhige Spaziergänge und Vogelbeobachtung."
+      },
+      {
+        "name": "Die großen Rasenflächen",
+        "desc": "Endlose, ebene Wiese mitten in der Stadt: Picknicks, Drachen, Sonnenbaden und spontanes Fußballspiel."
+      },
+      {
+        "name": "Radwege und Laufrunden",
+        "desc": "Ebene, gepflegte Wege durchziehen den Park und schließen an das Warschauer Radnetz an – die beliebteste Laufrunde des Stadtteils."
+      },
+      {
+        "name": "Nationalbibliothek Polens",
+        "desc": "Das Gebäude der Biblioteka Narodowa grenzt im Norden an den Park, sodass sich ein Spaziergang über die Wiesen mit einem Bibliotheksbesuch verbinden lässt."
+      },
+      {
+        "name": "Skulpturen und Erinnerungsorte",
+        "desc": "Freiluftskulpturen, Erinnerungsinstallationen und Kunstobjekte sind entlang der Wege verteilt und geben den weiten Rasenflächen ruhige Blickpunkte."
+      },
+      {
+        "name": "Natur und Vögel",
+        "desc": "Teiche, Schilf und alte Bäume machen den Park zu einem der grünsten Rückzugsorte in der Warschauer Innenstadt; Säugetiere und Vögel werden hier regelmäßig nachgewiesen."
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Einrichtungen im Park",
+    "subtitle": "Nur Einrichtungsarten – dieser Guide empfiehlt keine Anbieter.",
+    "items": [
+      {
+        "type": "Öffentliche Toiletten",
+        "desc": "Öffentliche Toiletten gibt es bei den meistgenutzten Wiesen und Spielplätzen; saisonale Anlagen können im Winter geschlossen sein.",
+        "hint": "Kostenlos, saisonal"
+      },
+      {
+        "type": "Spielplätze",
+        "desc": "Eingezäunte Spielplätze mit Schaukeln und Klettergerüsten liegen an den Wohnrändern des Parks.",
+        "hint": "Familienfreundlich"
+      },
+      {
+        "type": "Hundebereiche",
+        "desc": "Hunde sind auf Wegen und Wiesen willkommen, ein eingezäuntes Hundeauslaufgebiet erlaubt freien Lauf.",
+        "hint": "Außerhalb anleinen"
+      },
+      {
+        "type": "Sport & Fitness",
+        "desc": "Outdoor-Fitnessgeräte, Fußballfelder und weite ebene Wiesen für Training und Mannschaftsspiele.",
+        "hint": "Kostenlos nutzbar"
+      },
+      {
+        "type": "Radfahren",
+        "desc": "Befestigte Radwege führen durch und um den Park, Fahrradbügel gibt es an den Haupteingängen.",
+        "hint": "Städtisches Radnetz"
+      },
+      {
+        "type": "Picknick & Sitzgelegenheiten",
+        "desc": "Hunderte Bänke und offene Wiesen, auf denen Picknicks, Decken und lockere Spiele normal sind.",
+        "hint": "Decke mitbringen"
+      },
+      {
+        "type": "Abfall & Recycling",
+        "desc": "Entlang der Hauptalleen stehen getrennte Behälter für Glas, Kunststoff und Papier.",
+        "hint": "Keine Spuren hinterlassen"
+      },
+      {
+        "type": "Parken",
+        "desc": "Parkplätze an den umliegenden Alleen sind knapp und werktags meist kostenpflichtig.",
+        "hint": "Nahverkehr empfohlen"
+      },
+      {
+        "type": "Gastronomie & Cafés",
+        "desc": "In der Nähe des Parks lässt sich unkompliziert essen: Restaurants, Bistros, Cafés und Saison-Kioske findest du an den Haupteingängen sowie in den Stadtteilen Ochota und Mokotów. Wir nennen bewusst nur Kategorien.",
+        "hint": "Kategorien"
+      },
+      {
+        "type": "Hotels & Pensionen",
+        "desc": "Übernachtung? In den umliegenden Stadtteilen (Śródmieście, Ochota, Mokotów) gibt es Hotels, Hostels, Pensionen und Apartments in Gehweite zu den U-Bahn-Stationen M1. Vergleiche Angebote auf offiziellen Buchungsportalen.",
+        "hint": "Unterkunftsarten"
+      },
+      {
+        "type": "Läden & Supermärkte",
+        "desc": "Getränke, Snacks und Picknick-Vorrat bekommst du in Supermärkten und Convenience-Läden entlang der Niepodległości-Allee und den angrenzenden Straßen. Trinkwasser füllst du an den saisonalen Brunnen im Park kostenlos auf.",
+        "hint": "Kategorien"
+      },
+      {
+        "type": "Tanken & Laden (EV)",
+        "desc": "Für Autofahrer: Tankstellen liegen direkt am Park entlang der Niepodległości-Allee und der Żwirki-i-Wigury-Straße. Ladepunkte für E-Autos gibt es auf nahen Parkplätzen — Live-Verfügbarkeit zeigt die offizielle Ladekarte.",
+        "hint": "Kategorien"
+      }
+    ]
+  },
+  "nearby": {
+    "title": "Sehenswürdigkeiten rund um das Pole Mokotowskie",
+    "subtitle": "Das Museums- und Gartenviertel der Warschauer Innenstadt beginnt direkt am Park. Die Entfernungen sind ungefähre Fußwege – prüfen Sie die Route vor dem Aufbruch in einer Karten-App.",
+    "items": [
+      {
+        "name": "Nationalbibliothek Polens",
+        "kind": "Nationalbibliothek",
+        "dist": "Direkt am Park",
+        "desc": "Die Nationalbibliothek (Biblioteka Narodowa) liegt unmittelbar am Park. Ruhige Lesesäle und Ausstellungen lassen sich leicht mit einem Parkbesuch verbinden."
+      },
+      {
+        "name": "Königlicher Łazienki-Park",
+        "kind": "Königliche Gärten",
+        "dist": "ca. 2 km östlich",
+        "desc": "Warschaus prächtigste königliche Gärten mit dem Palast auf dem Wasser und dem Chopin-Denkmal, an dem es im Sommer sonntags kostenlose Klavierkonzerte gibt."
+      },
+      {
+        "name": "Schloss Ujazdów",
+        "kind": "Schloss · zeitgenössische Kunst",
+        "dist": "ca. 2,5 km östlich",
+        "desc": "Ein nach dem Krieg wiederaufgebautes ehemaliges Königsschloss, heute Sitz des Zentrums für Zeitgenössische Kunst (CSW). Vom Turm blickt man über den Łazienki-Park."
+      },
+      {
+        "name": "Museum des Warschauer Aufstands",
+        "kind": "Historisches Museum",
+        "dist": "ca. 3 km nordwestlich",
+        "desc": "Ein großes interaktives Museum zum Warschauer Aufstand von 1944 – eine gute Ergänzung zur Kriegsgeschichte des Parks; am besten mit öffentlichen Verkehrsmitteln erreichbar."
+      },
+      {
+        "name": "Kultur- und Wissenschaftspalast",
+        "kind": "Wahrzeichen der Stadt",
+        "dist": "ca. 2,5 km nördlich · U-Bahn M1",
+        "desc": "Warschaus bekanntestes Wahrzeichen. Ein paar Haltestellen mit der U-Bahn M1 nach Norden, und vom Aussichtsturm im 30. Stock sieht man auch diesen Park."
+      }
+    ]
+  },
+  "besttime": {
+    "title": "Beste Besuchszeiten",
+    "subtitle": "Warschau hat ein gemäßigtes Klima – warme Sommer, kalte Winter. Der Park ist ganzjährig rund um die Uhr geöffnet, und jede Jahreszeit hat ihren eigenen Reiz.",
+    "items": [
+      {
+        "name": "Frühling",
+        "period": "März – Mai",
+        "desc": "Wiesen und Seeufer ergrünen, Vögel kehren zurück. Das Wetter wechselt schnell – eine leichte Jacke hilft; an Wochenenden und Feiertagen ist es belebter."
+      },
+      {
+        "name": "Sommer",
+        "period": "Juni – August",
+        "desc": "Lange Tage und warme Abende: Picknicks, Spaziergänge am Wasser und Sonnenuntergänge ziehen die meisten Besucher an. Wasser und Sonnencreme nicht vergessen."
+      },
+      {
+        "name": "Herbst",
+        "period": "September – November",
+        "desc": "Alleen und Spiegelungen im See färben sich golden – die fotogenste Jahreszeit. Regen kommt häufiger vor, auf Laub kann es rutschig sein."
+      },
+      {
+        "name": "Winter",
+        "period": "Dezember – Februar",
+        "desc": "Schnee kann die offenen Wiesen in eine stille weiße Landschaft verwandeln. Die Tage sind kurz und kalt, aber die Wege bleiben offen und beleuchtet – ziehen Sie sich warm an."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Ist der Eintritt zum Pole Mokotowskie frei?",
+        "a": "Ja. Es ist eine öffentliche städtische Grünfläche ohne Eintrittsgebühr – Wiesen, Wege, See und Plätze sind für alle frei zugänglich."
+      },
+      {
+        "q": "Welche Öffnungszeiten hat der Park?",
+        "a": "Der Park hat kein Tor und keine Schließzeit: Er ist rund um die Uhr, sieben Tage die Woche und das ganze Jahr zugänglich. Manche saisonalen Kioske und Einrichtungen haben kürzere Zeiten."
+      },
+      {
+        "q": "Wie komme ich mit der Metro zum Pole Mokotowskie?",
+        "a": "Mit der Metro-Linie M1 bis zur Station Pole Mokotowskie; die Ausgänge führen direkt zur Parkseite der al. Niepodległości. Straßenbahn- und Bushaltestellen liegen an derselben Allee – aktuelle Liniennummern finden Sie auf wtp.waw.pl."
+      },
+      {
+        "q": "Wo genau liegt das Pole Mokotowskie?",
+        "a": "Im südlichen Zentrum Warschaus entlang der al. Niepodległości (Postleitzahl 00-650), zwischen den Stadtteilen Mokotów und Ochota, wenige Minuten vom Stadtzentrum entfernt. Plus Code: 6273+39 Warschau."
+      },
+      {
+        "q": "Kann man im See schwimmen?",
+        "a": "Nein. Das Gewässer ist ein natürliches ökologisches Reservoir für Landschaft und Artenvielfalt, kein Badegewässer – genießen Sie es vom Ufer und vom Steg aus."
+      },
+      {
+        "q": "Eignet sich der Park zum Laufen und Radfahren?",
+        "a": "Ja. Ebene, gepflegte Wege führen um Wiesen und See und schließen an das Warschauer Radnetz an. Der Park ist einer der beliebtesten Laufplätze der Stadt."
+      },
+      {
+        "q": "Sind Hunde erlaubt?",
+        "a": "Hunde sind im ganzen Park willkommen, und es gibt ein eingezäuntes Auslaufgebiet ohne Leinenpflicht. Außerhalb bitte anleinen und Hinterlassenschaften entfernen."
+      },
+      {
+        "q": "Wann ist die beste Zeit für einen Besuch?",
+        "a": "Der frühe Morgen und die Stunde vor Sonnenuntergang bringen weiches Licht, kühlere Luft und weniger Menschen. Am ruhigsten ist es werktags morgens, am vollsten an Wochenendnachmittagen."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Quellen & redaktionelle Hinweise",
+    "subtitle": "Erstellt aus öffentlichen und offiziellen Quellen. Dies ist ein unabhängiger, nicht-kommerzieller Guide und keine offizielle städtische Website.",
+    "lastUpdated": "Inhalt zuletzt aktualisiert",
+    "photoCredit": "Alle Fotos auf dieser Website bleiben Eigentum ihrer Urheber. Sie dienen ausschließlich der redaktionellen Illustration; bei Fragen zur Nennung oder Entfernung kontaktieren Sie uns bitte."
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
+    "description": "Wie dieser unabhängige Pole-Mokotowskie-Reiseführer Besucherdaten erhebt und schützt — Cookies, Analyse und Ihre DSGVO-Rechte.",
     "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "sections": [
       {
@@ -309,7 +555,7 @@
       },
       {
         "heading": "Dienste von Drittanbietern",
-        "content": "Unsere Website kann Dienste von Drittanbietern nutzen, wie z. B. Google Maps (für eingebettete Karten und Standortdaten), Google Analytics (für die Traffic-Analyse) und Unsplash (für Bilder). Diese Dienste haben ihre eigenen Datenschutzrichtlinien."
+        "content": "Unsere Website kann Dienste von Drittanbietern nutzen, wie z. B. Google Maps (für eingebettete Karten und Standortdaten) und Google Analytics (für die Traffic-Analyse). Alle Bilder und anderen Medien werden direkt von dieser Website gehostet. Diese Dienste haben ihre eigenen Datenschutzrichtlinien."
       },
       {
         "heading": "Ihre Rechte",
@@ -319,6 +565,7 @@
   },
   "terms": {
     "title": "Nutzungsbedingungen",
+    "description": "Nutzungsbedingungen für diesen unabhängigen Pole-Mokotowskie-Reiseführer — Inhaltsnutzung, Richtigkeit der Informationen und Haftungsbeschränkung.",
     "lastUpdated": "Zuletzt aktualisiert: Mai 2026",
     "sections": [
       {
@@ -335,7 +582,7 @@
       },
       {
         "heading": "Geistiges Eigentum",
-        "content": "Das Design und der ursprüngliche Inhalt dieser Website sind urheberrechtlich geschützt. Bilder stammen von Unsplash und werden mit Genehmigung verwendet. Die Nutzung von Google Maps-Daten entspricht den Nutzungsbedingungen von Google."
+        "content": "Das Design und der ursprüngliche Inhalt dieser Website sind urheberrechtlich geschützt. Alle Fotos bleiben Eigentum ihrer Fotografen und werden ausschließlich zu redaktionellen Zwecken verwendet. Die Nutzung von Google Maps-Daten entspricht den Nutzungsbedingungen von Google."
       },
       {
         "heading": "Haftungsbeschränkung",
@@ -369,6 +616,91 @@
     "saved": "Einstellungen gespeichert!",
     "rejectAll": "Alle ablehnen",
     "active": "Aktiv",
-    "inactive": "Inaktiv"
+    "inactive": "Inaktiv",
+    "toggle": "Umschalten"
+  },
+  "stories": {
+    "title": "Geschichte & Geschichten",
+    "subtitle": "Verifizierte Notizen vom Feld: Luftfahrt, Zeremonien, Krieg und Natur.",
+    "items": [
+      {
+        "kind": "Luftfahrt",
+        "title": "Die Wiege der polnischen Luftfahrt",
+        "text": "1909 fanden hier die ersten Flugschauen Polens statt, 1910 entstand das Flugfeld von Mokotów mit den Werkstätten und Hallen von Awiata am Nordrand — bis 1934 der Warschauer Flughafen."
+      },
+      {
+        "kind": "Feierlichkeiten",
+        "title": "Pilsudskis letzte Parade",
+        "text": "Am 11. November 1934 nahm Marschall Józef Piłsudski hier seine letzte Militärparade ab; ein halbes Jahr später, im Mai 1935, wurde auf demselben Feld die Trauerfeier vor seiner Beisetzung auf dem Wawel abgehalten."
+      },
+      {
+        "kind": "Kriegszeit",
+        "title": "Die «W»-Stunde auf dem Feld",
+        "text": "Während der Besatzung standen Flugabwehrgeschütze auf dem Feld. Am 1. August 1944 griffen sie Einheiten der Heimatarmee aus dem Bezirk Mokotów zur «W»-Stunde an — der Angriff scheiterte unter schweren Verlusten."
+      },
+      {
+        "kind": "Stadtgedächtnis",
+        "title": "Finnische Häuser und Kapuściński",
+        "text": "Nach dem Krieg standen hier rund 200 finnische Holzhäuser, ein Geschenk der UdSSR. Der Journalist Ryszard Kapuściński lebte von 1946 bis 1955 in einem davon — der 2010 eröffnete Bildungspfad des Parks trägt seinen Namen."
+      },
+      {
+        "kind": "Natur",
+        "title": "Der Kreis der Findlinge",
+        "text": "1999 wurden zum Tag der Erde am Südrand des Parks dreizehn Findlinge zu einem Kreis gelegt; ein Jahr später erkannte man sie als Naturdenkmal an."
+      },
+      {
+        "kind": "Ökologie",
+        "title": "Die Wiese wird verwildert",
+        "text": "Von 2021 bis 2023 wurde der Park umgestaltet: Beton wich Wiesen, ein Wasserlauf mit Schilf entstand, Holzstege, Bänke und neue Bäume kamen hinzu. Seit 2018 verbindet samstags parkrun die Gemeinde."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Wetter im Park",
+    "subtitle": "Aktuelle Bedingungen und die Mehrtagesvorhersage für das Gebiet Pole Mokotowskie. Daten: Open-Meteo.",
+    "now": "Jetzt",
+    "feelsLike": "Gefühlt",
+    "humidity": "Luftfeuchtigkeit",
+    "wind": "Wind",
+    "precipitation": "Niederschlag",
+    "today": "Heute",
+    "forecastTitle": "7-Tage-Vorhersage",
+    "source": "Wetterdaten: Open-Meteo (bis zu 30 Minuten aktualisiert).",
+    "fallback": "Wetterdaten sind derzeit nicht verfügbar. Bitte prüfe vor deinem Besuch einen separaten Wetterdienst.",
+    "codes": {
+      "0": "Klar",
+      "1": "Überwiegend klar",
+      "2": "Teilweise bewölkt",
+      "3": "Bedeckt",
+      "45": "Nebel",
+      "48": "Eisnebel",
+      "51": "Leichter Nieselregen",
+      "53": "Nieselregen",
+      "55": "Starker Nieselregen",
+      "56": "Leichter gefrierender Nieselregen",
+      "57": "Gefrierender Nieselregen",
+      "61": "Leichter Regen",
+      "63": "Regen",
+      "65": "Starker Regen",
+      "66": "Leichter gefrierender Regen",
+      "67": "Gefrierender Regen",
+      "71": "Leichter Schneefall",
+      "73": "Schneefall",
+      "75": "Starker Schneefall",
+      "77": "Schneegriesel",
+      "80": "Leichte Schauer",
+      "81": "Schauer",
+      "82": "Kräftige Schauer",
+      "85": "Leichte Schneeschauer",
+      "86": "Schneeschauer",
+      "95": "Gewitter",
+      "96": "Gewitter mit leichtem Hagel",
+      "99": "Gewitter mit starkem Hagel"
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, die gesuchte Seite existiert nicht oder wurde verschoben. Kehren Sie zum Reiseführer zurück, um den Park weiter zu erkunden.",
+    "homeLink": "Zurück zum Reiseführer"
   }
 }

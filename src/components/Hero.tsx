@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { siteConfig, gallerySizes } from '@/config';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -8,9 +9,12 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/images (1).jpg"
-          alt="Pole Mokotowskie"
+          src={siteConfig.heroImage}
+          alt={t('imgAlt')}
+          width={gallerySizes[1].width}
+          height={gallerySizes[1].height}
           className="w-full h-full object-cover"
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>
@@ -41,8 +45,15 @@ export default function Hero() {
               </svg>
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
+            <div className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                <path d="M4 8h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4z" />
+                <path d="M13 8v12" />
+              </svg>
+              <span className="text-white text-sm">{t('freeEntry')}</span>
+            </div>
             <a
-              href="https://maps.app.goo.gl/NDmzop8RQaVohjrT7"
+              href={siteConfig.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"
